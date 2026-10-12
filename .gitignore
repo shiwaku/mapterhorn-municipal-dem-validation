@@ -3,6 +3,7 @@
 !/.gitignore
 !/.gitattributes
 !/README.md
+!/LICENSE
 !/mapterhorn-japan-dem-notes.md
 
 # 日本域 z13+ のダウンロード手順と区割り地図（pmtiles 本体は上げない）
