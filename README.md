@@ -28,7 +28,7 @@
 - 鳥取（6-55-25）で、本家の pipelines をそのまま使って source〜bundle が通った。地理院のデータしかない区画は本家の公開版と一致した。
 - 2025-03 以前の自治体 DEM は改定前（測地成果2011）の標高で、改定後の地理院 DEM と地域ごとに数十 cm ずれる。判定できた 15 本（鳥取を含む）はすべて改定前で、水準点の補正パラメータの dH を足すとほぼ 0 になった。
 
-経過の詳細は [shiwaku/japan-basemap-tile-pipeline の issue #16・#20](https://github.com/shiwaku/japan-basemap-tile-pipeline/issues/20) にあります。
+経過の詳細は issue の [#1（取り込みの仕組み）](https://github.com/shiwaku/mapterhorn-municipal-dem-validation/issues/1) と [#2（標高改定の補正）](https://github.com/shiwaku/mapterhorn-municipal-dem-validation/issues/2) にあります。
 
 ## ライセンス
 
