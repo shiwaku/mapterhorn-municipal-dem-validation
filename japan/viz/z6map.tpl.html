@@ -1,0 +1,189 @@
+<title>Mapterhorn z6 区割り</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=BIZ+UDPGothic:wght@400;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* 地図（左）と詳細パネル（右）の2段。狭い画面では縦に積む。表は下に全幅 */
+:root {
+  --bg: #f4f6f8; --panel: #ffffff; --fg: #141a21; --muted: #59636f; --line: #c6ced8;
+  --land: #e1e6ec; --coast: #39434f; --accent: #256abf;
+  --s1: #cde2fb; --s2: #9ec5f4; --s3: #5598e7; --s4: #256abf; --s5: #0d366b;
+  --t1: #141a21; --t2: #141a21; --t3: #0b0f14; --t4: #ffffff; --t5: #ffffff;
+  --sans: "BIZ UDPGothic", "Hiragino Sans", "Yu Gothic UI", "Meiryo", sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, "Consolas", monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #13171c; --panel: #1b2027; --fg: #e7ebf0; --muted: #9ba6b2; --line: #36404b;
+  --land: #252c35; --coast: #b9c3ce; --accent: #6da7ec;
+  --s1: #0d366b; --s2: #184f95; --s3: #2a78d6; --s4: #6da7ec; --s5: #cde2fb;
+  --t1: #e7ebf0; --t2: #ffffff; --t3: #ffffff; --t4: #0b0f14; --t5: #0b0f14;
+  color-scheme: dark; } }
+:root[data-theme="dark"] {
+  --bg: #13171c; --panel: #1b2027; --fg: #e7ebf0; --muted: #9ba6b2; --line: #36404b;
+  --land: #252c35; --coast: #b9c3ce; --accent: #6da7ec;
+  --s1: #0d366b; --s2: #184f95; --s3: #2a78d6; --s4: #6da7ec; --s5: #cde2fb;
+  --t1: #e7ebf0; --t2: #ffffff; --t3: #ffffff; --t4: #0b0f14; --t5: #0b0f14;
+  color-scheme: dark; }
+body { background: var(--bg); color: var(--fg); font-family: var(--sans); font-size: 14px; line-height: 1.6; }
+.wrap { max-width: 1180px; margin: 0 auto; padding-inline: 16px; padding-block: 24px 40px; display: grid; gap: 20px; }
+header { display: grid; gap: 4px; }
+h1 { font-size: 1.5rem; margin: 0; text-wrap: balance; letter-spacing: .01em; }
+.lede { margin: 0; color: var(--muted); max-width: 68ch; }
+.asof { font-family: var(--mono); font-size: 12px; color: var(--muted); }
+.main { display: grid; grid-template-columns: minmax(0, 1fr) 300px; gap: 20px; align-items: start; }
+@media (max-width: 860px) { .main { grid-template-columns: minmax(0, 1fr); } }
+.map { background: var(--panel); border: 1px solid var(--line); border-radius: 6px; overflow: hidden; }
+svg { display: block; width: 100%; height: auto; }
+.cell rect.f { stroke: var(--bg); stroke-width: 2; }
+.cell { cursor: pointer; outline: none; }
+.cell .hl { fill: none; stroke: var(--fg); stroke-width: 3; opacity: 0; }
+.cell:hover .hl, .cell:focus-visible .hl, .cell.on .hl { opacity: 1; }
+.cell text { font-family: var(--mono); pointer-events: none; }
+.land { fill: var(--land); }
+.coast { fill: none; stroke: var(--coast); stroke-width: .8; stroke-linejoin: round; }
+.border { fill: none; stroke: var(--coast); stroke-width: .8; stroke-dasharray: 3 3; opacity: .7; }
+.grid line { stroke: var(--line); stroke-width: 1; }
+.bbox { fill: none; stroke: var(--accent); stroke-width: 1.5; stroke-dasharray: 6 4; }
+.tick { font-family: var(--mono); font-size: 10px; fill: var(--muted); }
+.gl { font-family: var(--mono); font-size: 11px; fill: var(--muted); }
+aside { display: grid; gap: 16px; }
+.box { background: var(--panel); border: 1px solid var(--line); border-radius: 6px; padding: 14px 16px; display: grid; gap: 10px; min-width: 0; }
+.box h2 { font-size: 12px; margin: 0; color: var(--muted); letter-spacing: .08em; font-weight: 700; }
+.legend { display: grid; gap: 6px; }
+.legend div { display: grid; grid-template-columns: 22px 1fr; gap: 8px; align-items: center; font-size: 13px; }
+.sw { width: 22px; height: 14px; border-radius: 2px; }
+.key { display: grid; grid-template-columns: 22px 1fr; gap: 8px; align-items: center; font-size: 13px; color: var(--muted); }
+.key svg { width: 22px; height: 14px; }
+.big { font-family: var(--mono); font-size: 1.6rem; font-weight: 500; line-height: 1.2; }
+.kv { display: grid; grid-template-columns: auto 1fr; gap: 4px 12px; font-size: 13px; }
+.kv dt { color: var(--muted); }
+.kv dd { margin: 0; font-family: var(--mono); font-variant-numeric: tabular-nums; min-width: 0; overflow-wrap: anywhere; }
+.chip { display: inline-block; font-family: var(--sans); font-size: 12px; padding: 0 8px; border-radius: 999px; border: 1px solid var(--line); }
+.chip.done { border-color: #0ca30c; }
+.chip.partial { border-color: #fab219; }
+.bar { height: 6px; background: var(--line); border-radius: 3px; overflow: hidden; }
+.bar i { display: block; height: 100%; background: var(--accent); }
+.hint { font-size: 12px; color: var(--muted); margin: 0; }
+.tbl { overflow-x: auto; background: var(--panel); border: 1px solid var(--line); border-radius: 6px; }
+table { border-collapse: collapse; width: 100%; font-size: 13px; }
+th, td { padding: 6px 12px; text-align: left; border-bottom: 1px solid var(--line); white-space: nowrap; }
+th { font-size: 12px; color: var(--muted); font-weight: 700; }
+td.n { font-family: var(--mono); text-align: right; font-variant-numeric: tabular-nums; }
+td.m { font-family: var(--mono); }
+tbody tr { cursor: pointer; }
+tbody tr:hover, tbody tr.on { background: color-mix(in srgb, var(--accent) 12%, transparent); }
+@media (prefers-reduced-motion: no-preference) { .cell .hl { transition: opacity .12s; } }
+</style>
+
+<div class="wrap">
+  <header>
+    <h1>Mapterhorn z6 区割り（日本域）</h1>
+    <p class="lede">Mapterhorn は z13 以上の標高タイルを z6 のタイル 1 枚ごとに 1 ファイル（<code>6-x-y.pmtiles</code>）に分けて配っています。日本の範囲に掛かる 22 区画のサイズと、手元へのダウンロードの進み具合です。区画を押すと詳細が出ます。</p>
+    <div class="asof" id="asof"></div>
+  </header>
+  <div class="main">
+    <div class="map"><svg id="map" role="img" aria-label="z6 タイル区割りの地図"></svg></div>
+    <aside>
+      <div class="box" id="detail" aria-live="polite"></div>
+      <div class="box">
+        <h2>ファイルサイズ</h2>
+        <div class="legend" id="legend"></div>
+        <div class="key"><svg viewBox="0 0 22 14"><rect x="1" y="1" width="20" height="12" fill="none" stroke="var(--accent)" stroke-width="1.5" stroke-dasharray="4 3"/></svg><span>日本の範囲 122.9,20.4 – 154.0,45.6</span></div>
+        <div class="key"><svg viewBox="0 0 22 14"><line x1="1" y1="7" x2="21" y2="7" stroke="var(--coast)" stroke-dasharray="3 3"/></svg><span>陸の国境（Natural Earth）</span></div>
+        <div class="key"><svg viewBox="0 0 22 14"><rect x="1" y="9" width="20" height="4" fill="var(--line)"/><rect x="1" y="9" width="9" height="4" fill="var(--accent)"/></svg><span>ダウンロード中の進み具合</span></div>
+      </div>
+      <div class="box" id="total"></div>
+    </aside>
+  </div>
+  <div class="tbl">
+    <table>
+      <thead><tr><th>区画</th><th style="text-align:right">サイズ</th><th>状態</th><th style="text-align:right">取得済み</th><th>範囲（経度・緯度）</th><th>R2 ミラー</th></tr></thead>
+      <tbody id="rows"></tbody>
+    </table>
+  </div>
+  <p class="hint">サイズと md5 は download.mapterhorn.com/download_urls.json（版 <span id="ver"></span>）。z0–12 は別ファイル（planet.pmtiles）で、ここには含めていない。海岸線は Natural Earth 1:50m。</p>
+</div>
+
+<script>
+const D = /*DATA*/null;
+const NS = 'http://www.w3.org/2000/svg';
+const BINS = [[1e7, '10 MB 未満（ほぼ海）'], [1e9, '10 MB – 1 GB'], [1e10, '1 – 10 GB'], [4e10, '10 – 40 GB'], [Infinity, '40 GB 以上']];
+const bin = s => BINS.findIndex(b => s < b[0]);
+const gb = s => s >= 1e9 ? (s / 1e9).toFixed(1) + ' GB' : s >= 1e6 ? (s / 1e6).toFixed(1) + ' MB' : s >= 1e3 ? (s / 1e3).toFixed(1) + ' KB' : s + ' B';
+const STATE = { done: '完了', partial: 'ダウンロード中', todo: '未着手' };
+const el = (n, a = {}, p) => { const e = document.createElementNS(NS, n); for (const k in a) e.setAttribute(k, a[k]); if (p) p.appendChild(e); return e; };
+
+document.getElementById('asof').textContent = `${D.asof} 時点`;
+document.getElementById('ver').textContent = D.version ?? '-';
+
+const svg = document.getElementById('map');
+const M = 28; // 目盛りの余白
+svg.setAttribute('viewBox', `${-M} ${-M} ${D.W + M} ${D.H + M}`);
+el('path', { d: D.land, class: 'land' }, svg);
+const g = el('g', { class: 'grid' }, svg);
+D.gridX.forEach(x => el('line', { x1: x, y1: 0, x2: x, y2: D.H }, g));
+D.gridY.forEach(y => el('line', { x1: 0, y1: y, x2: D.W, y2: y }, g));
+D.gridX.slice(0, -1).forEach((x, i) => { const t = el('text', { x: x + D.PX / 2, y: -10, 'text-anchor': 'middle', class: 'gl' }, svg); t.textContent = 'x ' + (53 + i); });
+D.gridY.slice(0, -1).forEach((y, i) => { const t = el('text', { x: -8, y: y + D.PX / 2 + 4, 'text-anchor': 'end', class: 'gl' }, svg); t.textContent = 'y' + (22 + i); });
+
+const cells = {};
+for (const t of D.tiles) {
+  const b = bin(t.size) + 1;
+  const c = el('g', { class: 'cell', tabindex: 0, role: 'button', 'aria-label': `${t.name} ${gb(t.size)} ${STATE[t.state]}` }, svg);
+  const [x, y] = t.px;
+  el('rect', { class: 'f', x, y, width: D.PX, height: D.PX, fill: `var(--s${b})`, 'fill-opacity': .82 }, c);
+  const tc = `var(--t${b})`;
+  el('text', { x: x + 8, y: y + 18, 'font-size': 12, 'font-weight': 500, fill: tc }, c).textContent = t.name.slice(2);
+  el('text', { x: x + 8, y: y + 34, 'font-size': 11, fill: tc }, c).textContent = gb(t.size);
+  if (t.mirror) el('text', { x: x + D.PX - 8, y: y + 18, 'font-size': 10, 'text-anchor': 'end', fill: tc }, c).textContent = 'R2';
+  if (t.state !== 'done') {
+    el('rect', { x: x + 8, y: y + D.PX - 16, width: D.PX - 16, height: 6, rx: 3, fill: 'var(--bg)', 'fill-opacity': .85 }, c);
+    el('rect', { x: x + 8, y: y + D.PX - 16, width: Math.max(0, (D.PX - 16) * t.got / t.size), height: 6, rx: 3, fill: 'var(--fg)' }, c);
+    el('text', { x: x + 8, y: y + D.PX - 22, 'font-size': 10, fill: tc }, c).textContent = t.state === 'todo' ? '未着手' : Math.floor(100 * t.got / t.size) + '%';
+  }
+  el('rect', { class: 'hl', x: x + 1.5, y: y + 1.5, width: D.PX - 3, height: D.PX - 3 }, c);
+  c.addEventListener('click', () => select(t.name));
+  c.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); select(t.name); } });
+  c.addEventListener('mouseenter', () => show(t));
+  c.addEventListener('mouseleave', () => show(D.tiles.find(u => u.name === current)));
+  cells[t.name] = c;
+}
+el('path', { d: D.land, class: 'coast' }, svg);
+el('path', { d: D.borders, class: 'border' }, svg);
+el('rect', { x: D.bbox[0], y: D.bbox[1], width: D.bbox[2], height: D.bbox[3], class: 'bbox' }, svg);
+D.lonTicks.forEach(([lo, x]) => { el('text', { x, y: D.H - 6, 'text-anchor': 'middle', class: 'tick' }, svg).textContent = lo + '°E'; });
+D.latTicks.forEach(([la, y]) => { el('text', { x: D.W - 6, y: y - 3, 'text-anchor': 'end', class: 'tick' }, svg).textContent = la + '°N'; });
+
+const lg = document.getElementById('legend');
+BINS.forEach((b, i) => { const d = document.createElement('div'); d.innerHTML = `<span class="sw" style="background:var(--s${i + 1})"></span><span>${b[1]}</span>`; lg.appendChild(d); });
+
+const sum = (f) => D.tiles.reduce((a, t) => a + f(t), 0);
+const tot = sum(t => t.size), got = sum(t => t.got), nd = D.tiles.filter(t => t.state === 'done').length;
+document.getElementById('total').innerHTML = `<h2>ダウンロード全体</h2><div class="big">${(got / 1e9).toFixed(1)} / ${(tot / 1e9).toFixed(1)} GB</div><div class="bar"><i style="width:${(100 * got / tot).toFixed(1)}%"></i></div><p class="hint">${D.tiles.length} 区画中 ${nd} 区画が md5 照合済み。地図上の「R2」は自前の R2 ミラーにあった区画（${D.tiles.filter(t => t.mirror).length} 本）。</p>`;
+
+const rows = document.getElementById('rows');
+const trs = {};
+for (const t of D.tiles) {
+  const tr = document.createElement('tr');
+  tr.innerHTML = `<td class="m">${t.name}</td><td class="n">${gb(t.size)}</td><td><span class="chip ${t.state}">${STATE[t.state]}</span></td><td class="n">${(100 * t.got / t.size).toFixed(0)}%</td><td class="m">${t.bbox[0]}–${t.bbox[2]}, ${t.bbox[1]}–${t.bbox[3]}</td><td>${t.mirror ? 'あり' : '—'}</td>`;
+  tr.addEventListener('click', () => select(t.name));
+  rows.appendChild(tr); trs[t.name] = tr;
+}
+
+let current = D.tiles[0].name;
+function show(t) {
+  if (!t) return;
+  document.getElementById('detail').innerHTML = `<h2>区画</h2><div class="big">${t.name}.pmtiles</div>
+  <dl class="kv"><dt>サイズ</dt><dd>${gb(t.size)}（${t.size.toLocaleString()} B）</dd>
+  <dt>状態</dt><dd><span class="chip ${t.state}">${STATE[t.state]}</span> ${t.state === 'done' ? '' : (100 * t.got / t.size).toFixed(1) + '%'}</dd>
+  <dt>経度</dt><dd>${t.bbox[0]}° – ${t.bbox[2]}°</dd><dt>緯度</dt><dd>${t.bbox[1]}° – ${t.bbox[3]}°</dd>
+  <dt>R2 ミラー</dt><dd>${t.mirror ? 'あり' : 'なし'}</dd>
+  <dt>z13 の範囲</dt><dd>x ${t.x * 128}–${t.x * 128 + 127}, y ${t.y * 128}–${t.y * 128 + 127}</dd></dl>`;
+}
+function select(n) {
+  current = n;
+  for (const k in cells) { cells[k].classList.toggle('on', k === n); trs[k].classList.toggle('on', k === n); }
+  show(D.tiles.find(t => t.name === n));
+}
+select(current);
+</script>

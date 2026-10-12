@@ -1,0 +1,163 @@
+### dem05_ehime | 愛媛県「数値標高モデル(DEM)0.5m」
+  * 平成30年度に林野庁が実施した航空レーザ測量データを基に、愛媛県が作成した0.5m解像度の「数値標高モデル（DEM）」です
+  resources: 愛媛県　利用規約 / データ範囲図 / dem_38201_matsuyama.zip / dem_38202_imabari.zip / dem_38203_uwajima.zip / dem_38204_yawatahama.zip / dem_38205_niihama.zip / dem_38206_saijo.zip / dem_38207_ozu.zip / dem_38210_iyo.zip / dem_38213_shikokuchuo.zip / dem_38214_seiyo.zip / dem_38215_touon.zip / dem_38356_kamijma.zip / dem_38386_kumakougen.zip / dem_38402_tobe.zip / dem_38422_uchiko.zip / dem_38442_ikata.zip / dem_38484_matsuno.zip / dem_38488_kihoku.zip / dem_38506_ainan.zip
+
+### nagano-dem | 長野県 _0.5mDEM
+  * 長野県の地域ごとに分かれた0.5ｍメッシュDEMデータのZIPファイル
+  resources: 上伊那 / 木曽 / 北安曇1 / 北安曇２ / 長野 / 北信１ / 北信２ / 下伊那 / 佐久 / 上小 / 諏訪 / 松本 / DEMデータ　ダウンロード / 索引図
+
+### dem05_kyoto | 京都府「数値標高モデル（DEM）」
+  * 31年～令和5年にかけて、航空レーザ測量により計測されたデータを使用して作成した0.5ｍ解像度の「数値標高モデル（DEM）」です
+  resources: 京都府利用規約 / 図郭割（インデックス）図PDF / 06KB.zip / 06KC.zip / 06LB.zip / 06LC.zip / 06MB.zip / 06MC.zip / 06MD.zip / 06NC.zip / 06ND.zip / 06OC.zip / 06OD.zip / 06OE.zip
+
+### dem | 富山県　数値標高モデル（DEM）
+  * &emsp;航空レーザ測量データを基に、富山県が作成した0.5m解像度の**「数値標高モデル（DEM）」**です
+  resources: 01富山県森林資源データの利用規約.pdf / 02航空レーザ測量成果及び解析成果の利用について.pdf / 03様式(9～12号).docx / 図郭割図(インデックス図) / GD.zip / GE.zip / GF.zip / HD.zip / HD2.zip / HE.zip / HE2.zip / HE3.zip / HF.zip / ID.zip / ID2.zip / IE.zip / IE2.zip / IF.zip
+
+### shizuoka-2019-pointcloud | VIRTUAL SHIZUOKA 静岡県 富士山南東部・伊豆東部 点群データ
+  * ALBデータ 等高線データ グリッドデータから地形モデルを介して自動発生させた1m間隔の等高線データです
+  * LPデータ 等高線データ グリッドデータから地形モデルを介して自動発生させた1m間隔の等高線データです
+  resources: LPデータ　オリジナル・グラウンドデータ / LPデータ　グリッドデータ / LPデータ　水部ポリゴンデータ / LPデータ　等高線データ / LPデータ　オルソ画像データ / LPデータサンプル画像 / LPデータ　計測日 / ALBデータ　オリジナル・グラウンドデータ / ALBデータ　グリッドデータ / ALBデータ　水部ポリゴンデータ / ALBデータ　等高線データ / ALBデータ　オルソ画像データ / ALBデータサンプル画像 / MMSデータ　オリジナル・グラウンドデータ / MMSデータ　走行軌跡データ / MMSデータサンプル画像
+
+### shizuoka-2020-pointcloud | VIRTUAL SHIZUOKA 静岡県 伊豆西部 点群データ
+  * ALBデータ 等高線データ グリッドデータから地形モデルを介して自動発生させた1m間隔の等高線データです
+  * LPデータ 等高線データ グリッドデータから地形モデルを介して自動発生させた1m間隔の等高線データです
+  resources: LPデータ　オリジナル・グラウンドデータ / LPデータ グリッドデータ / LPデータ　水部ポリゴンデータ / LPデータ 等高線データ / LPデータ オルソ画像データ / LPデータサンプル画像 / LPデータ　計測日 / ALBデータ　オリジナル・グラウンドデータ / ALBデータ グリッドデータ / ALBデータ　水部ポリゴンデータ / ALBデータ 等高線データ / ALBデータ オルソ画像データ / ALBデータサンプル画像 / MMSデータ　オリジナル・グラウンドデータ / MMSデータ　走行軌跡データ / MMSデータサンプル画像
+
+### shizuoka-2021-pointcloud | VIRTUAL SHIZUOKA 静岡県 富士山および静岡東部 点群データ
+  * ALBデータ 等高線データ グリッドデータから地形モデルを介して自動発生させた1m間隔の等高線データです
+  * LPデータ 等高線データ グリッドデータから地形モデルを介して自動発生させた1m間隔の等高線データです
+  resources: LPデータ　オリジナル・グラウンドデータ / LPデータ グリッドデータ / LPデータ 水部ポリゴンデータ / LPデータ 等高線データ / LPデータ オルソ画像データ / LPデータ　計測日 / ALBデータ　オリジナル・グラウンドデータ / ALBデータ グリッドデータ / ALBデータ 水部ポリゴンデータ / ALBデータ 等高線データ / ALBデータ オルソ画像データ / MMSデータ　オリジナル・グラウンドデータ / MMSデータ 走行軌跡データ / バックパック型LiDARデータ　オリジナル・グラウンドデータ / UAVレーザデータ　オリジナル・グラウンドデータ
+
+### shizuoka-2022-pointcloud | VIRTUAL SHIZUOKA 静岡県 北部（南アルプス） 点群データ
+  * LPデータ 等高線データ グリッドデータから地形モデルを介して自動発生させた1m間隔の等高線データです
+  resources: LPデータ オリジナルデータ / LPデータ グリッドデータ / LPデータ 水部ポリゴンデータ / LPデータ 等高線データ / LPデータ オルソ画像データ / LPデータ 赤色立体地図データ
+
+### shizuoka-2025-pointcloud | VIRTUAL SHIZUOKA 静岡県 北西部 点群データ
+  * LPデータ 等高線データ グリッドデータから地形モデルを介して自動発生させた1m間隔の等高線データです
+  resources: LPデータ オリジナルデータ / LPデータ グラウンドデータ / LPデータ グリッドデータ / LPデータ 水部ポリゴンデータ / LPデータ 等高線データ / LPデータ オルソ画像データ / LPデータ 微地形解析図データ / LPデータ ファイルリスト / LPデータ 計測日
+
+### shizuoka-2025-pointcloud-alb | VIRTUAL SHIZUOKA 静岡県 中西部沿岸 点群データ
+  * ALBデータ 等高線データ グリッドデータから地形モデルを介して自動発生させた1m間隔の等高線データです
+  resources: ALBデータ　オリジナルデータ / ALBデータ　グラウンドデータ / ALBデータ　グリッドデータ / ALBデータ　水部ポリゴンデータ / ALBデータ　低密度ポリゴンデータ / ALBデータ　等高線データ / ALBデータ　オルソ画像 / ALBデータ　微地形表現図 / ALBデータ　ファイルリスト
+
+### virtual-shizuoka-mw | VIRTUAL SHIZUOKA 静岡県 中・西部 点群データ
+  * LPデータ グリッドデータ グラウンドデータから内挿補間により作成した0.5m格子状の標高データです
+  * 線データ(DXF) グラウンドデータ又はグリッドデータから自動生成により作成した１ｍ間隔の等高線データ(DXF形式)です
+  * 線データ(SHP) グラウンドデータ又はグリッドデータから自動生成により作成した１ｍ間隔の等高線データ(SHAPE形式)です
+  resources: LPデータ オリジナルデータ / LPデータ グラウンドデータ / LPデータ グリッドデータ / LPデータ 水部ポリゴンデータ / LPデータ 微地形表現図データ / LPデータ 等高線データ(DXF) / LPデータ 等高線データ(SHP) / LPデータ オルソ画像データ / LPデータ 索引図 / LPデータ ファイルリスト / LPデータ データファイル仕様 / LPデータ 計測日 / MMSデータ オリジナル・グラウンドデータ / MMSデータ 走行軌跡データ / MMSデータ 索引図 / MMSデータ ファイルリスト
+
+### atami-3d | VIRTUAL SHIZUOKA 静岡県熱海市3次元点群データ
+  resources: サンプル画像 / 08NF2330 / 08NF2340 / 08NF2331 / 08NF2341 / 08NF2332 / 08NF2342 / 08NF2333 / 08NF2343 / 08NF2350 / 08NF2360 / 08NF2370 / 08NF2380 / 08NF2390 / 08NF2351 / 08NF2361 / 08NF2371 / 08NF2352 / 08NF2362 / 08NF2353 / 08NF2363 / 08NF2372 / 08NF2373 / 08NF2381 / 08NF2391
+
+### kanagawa-2019-pointcloud | 神奈川県 令和元年度県西部3次元点群データ
+  * 数値地形図_グリッドデータ（CSV形式） グラウンドデータを0.5mメッシュに整えたデータです
+  * 数値地形図_グリッドデータ（メッシュ形式） グラウンドデータを0.5mメッシュに整えたデータです
+  resources: 数値地形図_オリジナルデータ（TXT形式） / 数値地形図_オリジナルデータ（LAS形式） / 数値地形図_グラウンドデータ（TXT形式） / 数値地形図_グリッドデータ（CSV形式） / 数値地形図_グリッドデータ（メッシュ形式） / 数値地形図_水部ポリゴンデータ（TXT形式） / 微地形表現図データ（赤色立体地図）（TIF形式） / 等高線データ(DXF) / オルソ画像データ（JPEG形式） / オルソ画像データ（TIF形式）レベル5000 / オルソ画像データ（TIF形式）レベル1250
+
+### kanagawa-2020-1-pointcloud | 神奈川県 令和2年度県央部3次元点群データ
+  * 数値地形図_グリッドデータ（CSV形式） グラウンドデータを0.5mメッシュに整えたデータです
+  * 数値地形図_グリッドデータ（メッシュ形式） グラウンドデータを0.5mメッシュに整えたデータです
+  resources: 数値地形図_オリジナルデータ（TXT形式） / 数値地形図_オリジナルデータ（LAS形式）レベル1250 / 数値地形図_オリジナルデータ（LAS形式）レベル500 / 数値地形図_グラウンドデータ（TXT形式） / 数値地形図_グリッドデータ（CSV形式） / 数値地形図_グリッドデータ（メッシュ形式） / 数値地形図_水部ポリゴンデータ（TXT形式） / 微地形表現図データ（赤色立体地図）（TIF形式） / 等高線データ(DXF) / オルソ画像データ（TIF形式）
+
+### kanagawa-2020-2-pointcloud | 神奈川県 令和2年度相模原3次元点群データ
+  * 数値地形図_グリッドデータ（CSV形式） グラウンドデータを0.5mメッシュに整えたデータです
+  * 数値地形図_グリッドデータ（メッシュ形式） グラウンドデータを0.5mメッシュに整えたデータです
+  resources: 数値地形図_オリジナルデータ（TXT形式） / 数値地形図_グラウンドデータ（TXT形式） / 数値地形図_グリッドデータ（CSV形式） / 数値地形図_グリッドデータ（メッシュ形式） / 数値地形図_水部ポリゴンデータ（TXT形式） / 微地形表現図データ（赤色立体地図）（TIF形式） / 等高線データ(DXF) / オルソ画像データ（TIF形式）
+
+### kanagawa-2021-pointcloud | 神奈川県 令和3年度横浜南部、湘南、横須賀三浦3次元点群データ
+  * 数値地形図_グリッドデータ（CSV形式） グラウンドデータを0.5mメッシュに整えたデータです
+  * 数値地形図_グリッドデータ（メッシュ形式） グラウンドデータを0.5mメッシュに整えたデータです
+  resources: 数値地形図_オリジナルデータ（TXT形式） / 数値地形図_オリジナルデータ（LAS形式） / 数値地形図_グラウンドデータ（TXT形式） / 数値地形図_グリッドデータ（CSV形式） / 数値地形図_グリッドデータ（メッシュ形式） / 数値地形図_水部ポリゴンデータ（TXT形式） / 微地形表現図データ（赤色立体地図）（TIF形式） / 等高線データ(DXF) / オルソ画像データ（JPEG形式） / オルソ画像データ（TIF形式） / DEM(スペース区切り)（TXT）
+
+### kanagawa-2024-pointcloud | 神奈川県 令和6年度県西部、相模原3次元点群データ
+  * 数値地形図_グリッドデータ（CSV形式） グラウンドデータを0.5mメッシュに整えたデータです
+  * 数値地形図_グリッドデータ（メッシュ形式） グラウンドデータを0.5mメッシュに整えたデータです
+  resources: 数値地形図_オリジナルデータ（LAZ形式） / 数値地形図_グラウンドデータ（TXT形式） / 数値地形図_グリッドデータ（CSV形式） / 数値地形図_グリッドデータ（メッシュ形式） / 数値地形図_水部ポリゴンデータ（TXT形式） / 微地形表現図データ（赤色立体地図）（TIF形式） / 等高線データ(DXF) / オルソ画像データ（TIF形式）
+
+### yamanashi-pointcloud-2024 | 山梨県点群データ（航空LP・MMS）
+  * - Class1：地表面データを基に作成した0.50m格子状の標高データGeoTIFF
+  * - Class1：地表面データを基に作成した0.50m格子状の標高データtxt
+  * - Class9：鉄塔・送電線を基に作成した0.50m格子状の標高データGeoTIFF
+  * - Class9：鉄塔・送電線を基に作成した0.50m格子状の標高データtxt
+  * EM（航空LP 0.50m GeoTIFF形式） グラウンドデータを基に作成した0.50m格子状の標高データ：GeoTIFF
+  * ータ_DEM（航空LP 0.50m txt形式） グラウンドデータを基に作成した0.50m格子状の標高データ：txt
+  * 等高線 グリッドデータから自動生成により作成した1m間隔の等高線データ：DXF
+  resources: 索引図 / オリジナルデータ・グラウンドデータ（航空LP） / グリッドデータ_DSM1（航空LP 0.50m txt形式） / グリッドデータ_DSM1（航空LP 0.50m GeoTIFF形式） / グリッドデータ_DSM2（航空LP 0.50m txt形式） / グリッドデータ_DSM2（航空LP 0.50m GeoTIFF形式） / グリッドデータ_DEM（航空LP 0.50m txt形式） / グリッドデータ_DEM（航空LP 0.50m GeoTIFF形式） / オルソ画像データ（航空LP） / 微地形表現図（陰陽図） / 等高線 / 水部ポリゴン / MMSオリジナルデータ / MMS走行軌跡データ / 3DTiles(航空LP・MMS)
+
+### mountainous-area-pointcloud-saitama | 埼玉県 山間部点群データ
+  resources: 山間部点群データダウンロードページ
+
+### river-pointcloud-saitama | 埼玉県 河川点群データ
+  resources: 河川点群データダウンロードページ
+
+### road-pointcloud-saitama | 埼玉県 道路点群データ
+  resources: 道路点群データダウンロードページ
+
+### inatani_067 | 長野県（伊那谷森林計画区）・樹種ポリゴン/DCHM/DEM/微地形表現図（林野庁加工）
+  resources: 公共データ利用規約（第1.0版） / 公共データ利用規約（第１.0版）に関する重要情報 / データ諸元.pdf / 図郭割（インデックス）図 / 図郭割データ / DEMラスタタイル-PNG標高タイル / DEMラスタタイル-Terrain-RGB / CS立体図ラスタタイル / DEMラスタタイル-PNG標高タイル_QLRファイル / DEMラスタタイル-Terrain-RGB_QLRファイル / CS立体図ラスタタイル_QLRファイル / tree_species_20204_2025.7z / tree_species_20205_2025.7z / tree_species_20206_2025.7z / tree_species_20209_2025.7z / tree_species_20210_2025.7z / tree_species_20214_2025.7z / tree_species_20361_2025.7z / tree_species_20362_2025.7z / tree_species_20363_2025.7z / tree_species_20382_2025.7z / tree_species_20383_2025.7z / tree_species_20384_2025.7z / tree_species_20385_2025.7z / tree_species_20386_2025.7z
+
+### kitaise_081 | 三重県（北伊勢森林計画区）・樹種ポリゴン/林相識別図/DCHM/DEM/微地形表現図（林野庁加工）
+  resources: 公共データ利用規約（第1.0版） / 公共データ利用規約（第１.0版）に関する重要情報 / データ諸元.pdf / 図郭割（インデックス）図 / 図郭割データ / 林相識別図ラスタタイル / DEMラスタタイル-PNG標高タイル / DEMラスタタイル-Terrain-RGB / CS立体図ラスタタイル / 林相識別図ラスタタイル_QLRファイル / DEMラスタタイル-PNG標高タイル_QLRファイル / DEMラスタタイル-Terrain-RGB_QLRファイル / CS立体図ラスタタイル_QLRファイル / tree_species_24201_2025.7z / tree_species_24202_2025.7z / tree_species_24205_2025.7z / tree_species_24207_2025.7z / tree_species_24210_2025.7z / tree_species_24214_2025.7z / tree_species_24341_2025.7z / dchm_06ME4_2025.tif / dchm_06MF3_2025.tif / dchm_06NE2_2025.tif / dchm_06NE4_2025.tif / dchm_06NF1_2025.tif
+
+### owarinishimikawa_078 | 愛知県（尾張西三河森林計画区）・樹種ポリゴン/林相識別図/DCHM/DEM/微地形表現図（林野庁加工）
+  resources: 公共データ利用規約（第1.0版） / 公共データ利用規約（第１.0版）に関する重要情報 / データ諸元.pdf / 図郭割（インデックス）図 / 図郭割データ / 林相識別図ラスタタイル / DEMラスタタイル-PNG標高タイル / DEMラスタタイル-Terrain-RGB / CS立体図ラスタタイル / 林相識別図ラスタタイル_QLRファイル / DEMラスタタイル-PNG標高タイル_QLRファイル / DEMラスタタイル-Terrain-RGB_QLRファイル / CS立体図ラスタタイル_QLRファイル / tree_species_23100_2025.7z / tree_species_23202_2025.7z / tree_species_23204_2025.7z / tree_species_23205_2025.7z / tree_species_23210_2025.7z / tree_species_23206_2025.7z / tree_species_23211_2025.7z / tree_species_23213_2025.7z / tree_species_23215_2025.7z / tree_species_23216_2025.7z / tree_species_23219_2025.7z / tree_species_23222_2025.7z
+
+### higashimikawa_079 | 愛知県（東三河森林計画区）・樹種ポリゴン/林相識別図/DCHM/DEM/微地形表現図（林野庁加工）
+  resources: 公共データ利用規約（第1.0版） / 公共データ利用規約（第１.0版）に関する重要情報 / データ諸元 / 図郭割（インデックス）図 / 図郭割データ / 林相識別図ラスタタイル / DEMラスタタイル-PNG標高タイル / DEMラスタタイル-Terrain-RGB / CS立体図ラスタタイル / 林相識別図ラスタタイル_QLRファイル / DEMラスタタイル-PNG標高タイル_QLRファイル / DEMラスタタイル-Terrain-RGB_QLRファイル / CS立体図ラスタタイル_QLRファイル / tree_species_23201_2025.7z / tree_species_23207_2025.7z / tree_species_23214_2025.7z / tree_species_23221_2025.7z / tree_species_23231_2025.7z / tree_species_23561_2025.7z / tree_species_23562_2025.7z / tree_species_23563_2025.7z / dchm_07ME4_2025.tif / dchm_07MF3_2025.tif / dchm_07MF4_2025.tif / dchm_07NE2_2025.tif
+
+### yoshinokawa_116 | 徳島県（吉野川森林計画区）・樹種ポリゴン/林相識別図/DCHM/DEM/微地形表現図（林野庁加工）
+  resources: 公共データ利用規約（第1.0版） / 公共データ利用規約（第１.0版）に関する重要情報 / データ諸元.pdf / 図郭割（インデックス）図 / 図郭割データ / 林相識別図ラスタタイル / DEMラスタタイル-PNG標高タイル / DEMラスタタイル-Terrain-RGB / CS立体図ラスタタイル / 林相識別図ラスタタイル_QLRファイル / DEMラスタタイル-PNG標高タイル_QLRファイル / DEMラスタタイル-Terrain-RGB_QLRファイル / CS立体図ラスタタイル_QLRファイル / tree_species_36201_2025.7z / tree_species_36205_2025.7z / tree_species_36206_2025.7z / tree_species_36207_2025.7z / tree_species_36208_2025.7z / tree_species_36301_2025.7z / tree_species_36302_2025.7z / tree_species_36342_2025.7z / tree_species_36468_2025.7z / tree_species_36489_2025.7z / dchm_04FE4_2025.tif / dchm_04FF3_2025.tif
+
+### tokushima_aerial_laser | 徳島県（那賀・海部川森林計画区）・樹種ポリゴン/林相識別図/DCHM/DEM/微地形表現図（林野庁加工）
+  resources: 公共データ利用規約（第1.0版） / 公共データ利用規約（第１.0版）に関する重要情報 / データ諸元.pdf / 図郭割（インデックス）図 / 図郭割データ / 林相識別図ラスタタイル / DEMラスタタイル-PNG標高タイル / DEMラスタタイル-Terrain-RGB / CS立体図ラスタタイル / 林相識別図ラスタタイル_QLRファイル / DEMラスタタイル-PNG標高タイル_QLRファイル / DEMラスタタイル-Terrain-RGB_QLRファイル / CS立体図ラスタタイル_QLRファイル / tree_species_36204_2025.7z / tree_species_36368_2025.7z / tree_species_36383_2025.7z / tree_species_36387_2025.7z / tree_species_36388_2025.7z / dchm_04GF3_2025.tif / dchm_04GF4_2025.tif / dchm_04GG3_2025.tif / dchm_04GG4_2025.tif / dchm_04HF1_2025.tif / dchm_04HF2_2025.tif / dchm_04HF4_2025.tif
+
+### 028_syounai | 山形県（庄内森林計画区）・樹種ポリゴン/林相識別図/DCHM/DEM/微地形表現図（林野庁加工）
+  resources: 公共データ利用規約（第1.0版） / 公共データ利用規約（第１.0版）に関する重要情報 / データ諸元.pdf / 図郭割（インデックス）図 / 図郭割データ / 林相識別図ラスタタイル / DEMラスタタイル-PNG標高タイル / DEMラスタタイル-Terrain-RGB / CS立体図ラスタタイル / 林相識別図ラスタタイル_QLRファイル / DEMラスタタイル-PNG標高タイル_QLRファイル / DEMラスタタイル-Terrain-RGB_QLRファイル / CS立体図ラスタタイル_QLRファイル / tree_species_06203_2025.7z / tree_species_06204_2025.7z / tree_species_06428_2025.7z / tree_species_06461_2025.7z / dchm_10OB2_2025.tif / dchm_10OB3_2025.tif / dchm_10OB4_2025.tif / dchm_10OC3_2025.tif / dchm_10PB1_2025.tif / dchm_10PB2_2025.tif / dchm_10PB3_2025.tif / dchm_10PB4_2025.tif
+
+### oita_aerial_laser | 大分県（大分南部森林計画区）・樹種ポリゴン/林相識別図/DEM/微地形表現図（林野庁加工）
+  resources: 公共データ利用規約（第1.0版） / 公共データ利用規約（第１.0版）に関する重要情報 / データ諸元.pdf / 図郭割（インデックス）図 / 図郭割データ / 林相識別図ラスタタイル / DEMラスタタイル-PNG標高タイル / DEMラスタタイル-Terrain-RGB / CS立体図ラスタタイル / 林相識別図ラスタタイル_QLRファイル / DEMラスタタイル-PNG標高タイル_QLRファイル / DEMラスタタイル-Terrain-RGB_QLRファイル / CS立体図ラスタタイル / tree_species_44205_2025.7z / dem_02JF4_2025 / dem_02JG3_2025 / dem_02KF1_2025 / dem_02KF2_2025 / dem_02KF3_2025 / dem_02KF4_2025 / dem_02KG1_2025 / dem_02KG3_2025
+
+### h28_kumamoto_earthquake_aerial_laser | 平成28年熊本地震・DEM/微地形表現図/グラウンドデータ（林野庁加工）
+  resources: 公共データ利用規約（第1.0版） / 公共データ利用規約（第１.0版）に関する重要情報 / データ諸元【平成28年度森林域における航空レーザ計測業務（Ⅰ）】.pdf / データ諸元【平成28年度森林域における航空レーザ計測業務（Ⅲ）】.pdf / データ諸元【平成28年度森林域における航空レーザ計測業務（Ⅳ）】.pdf / データ諸元【平成28年度森林域における航空レーザ計測業務】.pdf / 図郭割（インデックス）図 / 図郭割データ / DEMラスタタイル-PNG標高タイル / DEMラスタタイル-Terrain-RGB / CS立体図ラスタタイル / DEMラスタタイル-PNG標高タイル_QLRファイル / DEMラスタタイル-Terrain-RGB_QLRファイル / CS立体図ラスタタイル / ground_data_02id4_2025.7z / ground_data_02ie3_2025.7z / ground_data_02ie4_2025.7z / ground_data_02if3_2025.7z / ground_data_02jd2_2025.7z / ground_data_02jd4_2025.7z / ground_data_02je1_2025.7z / ground_data_02je2_2025.7z / ground_data_02je3_2025.7z / ground_data_02je4_2025.7z / ground_data_02jf1_2025.7z
+
+### h30_7_gouu | 平成30年7月豪雨・DEM/微地形表現図/グラウンドデータ（林野庁加工）
+  resources: 公共データ利用規約（第1.0版） / 公共データ利用規約（第１.0版）に関する重要情報 / 公共データ利用規約（第１.0版）に関する重要情報 / データ諸元【平成30年度森林域における航空レーザ計測業務（その１）】.pdf / データ諸元【平成30年度森林域における航空レーザ計測業務（その２）】.pdf / 図郭割（インデックス）図 / 図郭割データ / 図郭割データ / DEMラスタタイル-PNG標高タイル / DEMラスタタイル-Terrain-RGB / CS立体図ラスタタイル / DEMラスタタイル-PNG標高タイル_QLRファイル / DEMラスタタイル-Terrain-RGB_QLRファイル / CS立体図ラスタタイル / ground_data_03of4_2025.7z / ground_data_03og3_2025.7z / ground_data_03pe2_2025.7z / ground_data_03pe4_2025.7z / ground_data_03pf1_2025.7z / ground_data_03pf2_2025.7z / ground_data_03pf3_2025.7z / ground_data_03pf4_2025.7z / ground_data_03pg1_2025.7z / ground_data_03pg2_2025.7z / ground_data_03pg3_2025.7z
+
+### r2_7_gouu | 令和2年7月豪雨・DEM/微地形表現図/グラウンドデータ（林野庁加工）
+  resources: 公共データ利用規約（第1.0版） / 公共データ利用規約（第１.0版）に関する重要情報 / データ諸元【令和2年度森林域における航空レーザ計測業務（その１）】.pdf / データ諸元【令和2年度森林域における航空レーザ計測業務（その２）】.pdf / 図郭割（インデックス）図 / 図郭割データ / DEMラスタタイル-PNG標高タイル / DEMラスタタイル-Terrain-RGB / CS立体図ラスタタイル / DEMラスタタイル-PNG標高タイル_QLRファイル / DEMラスタタイル-Terrain-RGB_QLRファイル / CS立体図ラスタタイル / ground_data_02jc4_2025.7z / ground_data_02jd1_2025.7z / ground_data_02jd2_2025.7z / ground_data_02jd3_2025.7z / ground_data_02jd4_2025.7z / ground_data_02je1_2025.7z / ground_data_02je3_2025.7z / ground_data_02kc2_2025.7z / ground_data_02kd1_2025.7z / ground_data_02kd2_2025.7z / ground_data_02lb4_2025.7z / ground_data_02lc3_2025.7z / ground_data_02lc4_2025.7z
+
+### r6_noto-peninsula-earthquake | 令和6年能登半島地震・DEM/微地形表現図/グラウンドデータ（林野庁加工）
+  resources: 公共データ利用規約（第1.0版） / 公共データ利用規約（第１.0版）に関する重要情報 / 図郭割（インデックス）図 / 図郭割データ / 図郭割データ / DEMラスタタイル-PNG標高タイル / DEMラスタタイル-Terrain-RGB / CS立体図ラスタタイル / DEMラスタタイル-PNG標高タイル_QLRファイル / DEMラスタタイル-Terrain-RGB_QLRファイル / CS立体図ラスタタイル_QLRファイル / ground_data_07dd1_2025.7z / ground_data_07dd3_2025.7z / ground_data_07ed1_2025.7z / ground_data_07ed2_2025.7z / ground_data_07ed3_2025.7z / ground_data_07ed4_2025.7z / ground_data_07ee1_2025.7z / ground_data_07ee3_2025.7z / ground_data_07fc2_2025.7z / ground_data_07fc4_2025.7z / ground_data_07fd1_2025.7z / ground_data_07fd2_2025.7z / ground_data_07fd3_2025.7z / ground_data_07fd4_2025.7z
+
+### rinya-toyama-maptiles ERR HTTP Error 403: FORBIDDEN
+
+### r02nakatatisakishoukibochisan | 【北海道】航空レーザーデータ（R02中田地先小規模治山）
+  resources: 位置図 / データ一式
+
+### 3duavhokkaido001 | 【北海道】3D点群　UAV測定データ
+  resources: 胆振震災被害森林 / 和寒町夫婦岩 / 道民の森
+
+### kyoubasiekisyuuhen_las | 京橋駅周辺三次元点群データ（令和３年度、令和４年度取得データ_LAS）
+  resources: 三次元点群データ位置図.pdf / A-01～A-04.zip / B-01～B-04.zip / C-01.zip / D-01～D-07.zip / E-01.zip / F-01～F-02.zip / G-01～G-03.zip / H-01～H-02.zip / I-01～I-06.zip / J-01～J-03.zip / J-04～J-05.zip / K-01～K-03.zip / L-01～L-03.zip
+
+### tokyopc-23ku-2024 | 東京都デジタルツイン実現プロジェクト　区部点群データ
+  * グリッドデータDEM（0.25m） グラウンドデータを基に作成した0.25m格子状の標高データ
+  * グリッドデータDEM（0.50m） グラウンドデータを基に作成した0.50m格子状の標高データ
+  * 等高線 グリッドデータから自動生成により作成した1m間隔の等高線データ
+  resources: 索引図 / オリジナルデータ（DSM）及びグラウンドデータ（DEM） / グリッドデータDEM（0.25m） / グリッドデータDEM（0.50m） / 等高線 / 微地形表現図（赤色立体地図）DEM（グラウンド）（0.25m） / 微地形表現図（赤色立体地図）DEM（グラウンド）（0.50m）
+
+### tokyopc-tama-2023 | 東京都デジタルツイン実現プロジェクト　多摩地域点群データ
+  * グリッドデータ（0.25m） グラウンドデータを基に作成した0.25m格子状の標高データ
+  * グリッドデータ（0.50m） グラウンドデータを基に作成した0.50m格子状の標高データ
+  * 等高線 グリッドデータから自動生成により作成した1m間隔の等高線データ
+  resources: 索引図 / オリジナルデータ（DSM）及びグラウンドデータ（DEM） / グリッドデータ（0.25m） / グリッドデータ（0.50m） / 等高線 / 航空レーザ用数値写真データ(オルソ画像) / 微地形表現図（陰陽図）（0.25m） / 微地形表現図（陰陽図）（0.50m） / 微地形表現図（赤色立体地図）（0.25m） / 微地形表現図（赤色立体地図）（0.50m）
+
+### 2022-hyougo-geo-cs | 兵庫県 50cmメッシュ 標高ラスター/CS立体図（2021～2022年度）
+  * ※兵庫県が実施した50cmメッシュの航空レーザ測量データを使用して作成
+  resources: 【2021～2022】CS/標高ラスター
+
+### 2010-2018-hyogo-geo-cs | 兵庫県_全域_標高ラスター／CS立体図（2010年度～2018年度）
+  * ※兵庫県、国土交通省近畿地方整備局六甲砂防事務所が実施した__1mメッシュ__の航空レーザ測量データを使用して作成
+  resources: Indexmap（PDFファイル） / 標高ラスター／CS立体図　ダウンロードページ
+

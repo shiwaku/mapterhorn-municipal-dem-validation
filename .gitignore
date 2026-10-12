@@ -1,0 +1,31 @@
+# 公開するものだけを許可する。データ・ほかのリポジトリ・手元のファイル一覧は上げない。
+/*
+!/.gitignore
+!/.gitattributes
+!/README.md
+!/mapterhorn-japan-dem-notes.md
+
+# 日本域 z13+ のダウンロード手順と区割り地図（pmtiles 本体は上げない）
+!/japan/
+/japan/*
+!/japan/download.sh
+!/japan/files.txt
+!/japan/viz/
+
+# 自治体 DEM の検証
+!/municipal-dem/
+/municipal-dem/issue-draft-height-revision.md
+/municipal-dem/grids/
+/municipal-dem/compare-param/gsi-cache/
+/municipal-dem/local-scan/*
+!/municipal-dem/local-scan/*.py
+/municipal-dem/tottori/work/
+/municipal-dem/tottori/backup/
+/municipal-dem/tottori/datum/par/
+/municipal-dem/tottori/datum/*.pdf
+/municipal-dem/tottori/datum/*.png
+/municipal-dem/tottori/datum/*.jpg
+/municipal-dem/tottori/gsi-lists/latest_*.csv
+/municipal-dem/tottori/tottori_vsizip.txt
+/municipal-dem/tottori/tottori_index.gpkg
+*.log

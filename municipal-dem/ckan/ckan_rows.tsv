@@ -1,0 +1,158 @@
+DCSデータ連携	兵庫県-兵庫県_全域DEM（2010年度～2018年度）(旧データセット）	クリエイティブ・コモンズ 表示	0		2026-01-09	148368e9-3312-48bf-96d0-0ec83fc0989e
+DCSデータ連携	兵庫県-兵庫県_全域_標高ラスター／CS立体図（2010年度～2018年度）(旧データセット)	クリエイティブ・コモンズ 表示	0		2026-01-09	ba86e088-2d86-4e53-a8f8-e8aed9a76d08
+NPO法人クライシスマッパーズ・ジャパン	熱海市伊豆山土砂災害地物高さマップ	CC-BY	5	7Z,JPEG	2024-10-05	atami20210703izusan0000shizuokapref02
+data-xformer	FMEワークスペース例 [ラスター・点群]	クリエイティブ・コモンズ 表示	4	FMW	2026-04-06	fme-workspace-examples-raster-and-pointcloud
+アジア航測株式会社	MMS点群デ－タ	独自利用規約	4	PDF,PNG,URL	2024-10-05	mms
+エアロトヨタ株式会社	2002,2006,2008年度 good-3D DSM点群データ	独自利用規約	8	JPEG,PDF,URL	2024-10-05	good3ddsm
+エアロトヨタ株式会社	2018年度 good-3D DSM点群データ	独自利用規約	3	PDF,XYZ	2024-10-04	2018-good-3d-dsm
+エアロトヨタ株式会社	令和6年能登半島地震（能登東部発災前DEM）【朝日航洋株式会社】	クリエイティブ・コモンズ 非商用	2	ZIP	2024-10-04	aac-disaster-20240101-dem
+スマートシティ戦略部	微地形地図	CC-BY	33	ZIP	2024-10-04	cs
+デジタル戦略本部室	神奈川県 令和2年度相模原3次元点群データ	クリエイティブ・コモンズ 表示	8	PBF	2026-08-19	kanagawa-2020-2-pointcloud
+デジタル戦略本部室	神奈川県 令和2年度県央部3次元点群データ	クリエイティブ・コモンズ 表示	10	PBF	2026-08-19	kanagawa-2020-1-pointcloud
+デジタル戦略本部室	神奈川県 令和3年度横浜南部、湘南、横須賀三浦3次元点群データ	クリエイティブ・コモンズ 表示	11	PBF	2026-08-19	kanagawa-2021-pointcloud
+デジタル戦略本部室	神奈川県 令和4年度横浜北部、川崎3次元点群データ	クリエイティブ・コモンズ 表示	16	PBF	2026-08-19	kanagawa-2022-pointcloud
+デジタル戦略本部室	神奈川県 令和6年度県西部、相模原3次元点群データ	クリエイティブ・コモンズ 表示	8	PBF	2026-09-01	kanagawa-2024-pointcloud
+デジタル戦略本部室	神奈川県 令和元年度県西部3次元点群データ	クリエイティブ・コモンズ 表示	11	PBF	2026-08-19	kanagawa-2019-pointcloud
+三島市	三島市_楽寿園三次元点群データ	クリエイティブ・コモンズ 表示	6	MP4,PDF,TIF,ZIP	2026-09-08	mishima_rakujyu1
+中日本航空株式会社	令和6年能登半島地震：航空レーザ計測「簡易オルソ画像」・「微地形表現図（地形起伏図）」（発災後）（計測日：2024年1月14日、1月17日）【中日本航空株式会社】	独自利用規約	8	PDF,TIF	2024-10-04	6-2024-1-14-1-17
+令和6年能登半島地震	令和6年能登半島地震　能登東部微地形表現図データ（発災前）	独自利用規約	3	PDF,ZIP	2026-02-28	2024-notoeast-mtopo
+令和6年能登半島地震	令和6年能登半島地震　能登東部３次元点群データ（発災前　色付き・ジオイド高変換済み）	独自利用規約	25	PDF,ZIP	2026-02-28	2024-notoeast-pcrgb
+令和6年能登半島地震	令和6年能登半島地震　能登東部３次元点群データ（発災前）	独自利用規約	25	PDF,ZIP	2026-05-22	2024-notoeast-pc
+令和6年能登半島地震	令和6年能登半島地震　能登西部微地形表現図データ（発災前）	独自利用規約	2	PDF,ZIP	2026-02-28	2024-notowest-mtopo
+令和6年能登半島地震	令和6年能登半島地震　能登西部３次元点群データ（発災前　色付き・ジオイド高変換済み）	独自利用規約	31	PDF,ZIP	2026-02-28	2024-notowest-pcrgb
+令和6年能登半島地震	令和6年能登半島地震　能登西部３次元点群データ（発災前）	独自利用規約	39	PDF,ZIP	2026-02-28	2024-notowest-pc
+公益社団法人　土木学会	【提供：国土交通省　那賀川河川事務所、福井河川国道事務所】ALB（航空レーザ測深）データ	政府標準利用規約	2	GEOJSON	2024-10-05	doboku-alb
+公立大学法人大阪　大阪公立大学	富田林寺内町 3次元点群データ	クリエイティブ・コモンズ 表示	20	LAZ	2026-09-02	tondabayashi_jinaimachi
+公立大学法人大阪　大阪公立大学	岸和田城 3次元点群データ	クリエイティブ・コモンズ 表示	10	LAZ	2026-09-08	kishiwada-castle
+公立大学法人大阪　大阪公立大学	高山寺 3次元点群データ	クリエイティブ・コモンズ 表示	9	LAZ	2026-09-28	kozanji
+公立大学法人大阪　大阪公立大学	鬪雞神社 3次元点群データ	クリエイティブ・コモンズ 表示	4	LAZ	2026-09-28	toukeijinja
+兵庫県_旧データ	兵庫県_全域DEM（2010年度～2018年度）	独自利用規約	2	PBF,PDF	2025-12-10	2010-2018-hyogo-geo-dem
+兵庫県_旧データ	兵庫県_全域DEM（2010年度～2018年度）(旧データセット）	独自利用規約	830	GEOJSON,PDF,SHP,ZIP	2025-12-10	2010-2018-hyogo-geo-dem-old
+兵庫県_旧データ	兵庫県_全域_標高ラスター／CS立体図（2010年度～2018年度）	独自利用規約	2	PBF,PDF	2025-12-10	2010-2018-hyogo-geo-cs
+兵庫県_旧データ	兵庫県_全域_標高ラスター／CS立体図（2010年度～2018年度）(旧データセット)	独自利用規約	830	GEOJSON,PDF,SHP,ZIP	2025-12-10	2010-2018-hyogo-geo-cs-old
+兵庫県_旧データ	兵庫県_全域数値地形図_ポータル（2010年度～2018年度）	独自利用規約	0		2025-12-10	2010-2018-hyogo-geo-potal
+内閣府　中央防災会議　日本海溝・千島海溝周辺海溝型地震に関する専門調査会	日本海溝_津波_（４）地形データ	独自利用規約	6	DOC,PDF,ZIP	2024-10-05	1976
+内閣府　中央防災会議　東海地震、東南海・南海地震等に関する専門調査会	東海東南海南海_津波_東南海南海_（４）地形データ	独自利用規約	6	DOC,PDF,ZIP	2024-10-04	1882
+内閣府　中央防災会議　東海地震、東南海・南海地震等に関する専門調査会	東海東南海南海_津波_東海_（４）地形データ	独自利用規約	6	DOC,PDF,ZIP	2024-10-04	1874
+内閣府　南海トラフの巨大地震モデル検討会	津波断層モデル(5)地形データ	独自利用規約	16	DOCX,PDF,ZIP	2024-10-04	1205
+内閣府　南海トラフ巨大地震モデル・被害想定手法検討会 （令和7年～）	津波断層モデル(5)地形データ	独自利用規約	16	DOCX,PDF,ZIP	2025-09-17	05
+内閣府　首都直下地震モデル・被害想定手法検討会（令和7年～）	津波断層モデル(5)地形データ	独自利用規約	4	7Z,PDF	2025-12-19	syuto5
+内閣府　首都直下地震モデル検討会	首都直下_津波公開データ_03地形データ	独自利用規約	6	PDF,ZIP	2024-10-04	1302
+国土交通省	平成20年度　沼津河川国道事務所管内航空レーザー測量業務	独自利用規約	461	LAS	2024-10-04	h20numazulas
+国土交通省	平成20年度　狩野川水系航空レーザ―測量業務	独自利用規約	132	LAS	2024-10-04	h20kanogawalas
+国土交通省	平成25年度　天竜川航空レーザ測量	独自利用規約	31	LAS	2024-10-04	h25tenryulas
+国土交通省	平成25年度　菊川航空レーザ測量	独自利用規約	100	LAS	2024-10-04	h25kikugawalas
+国土交通省	平成26年度　天竜川地形計測業務	独自利用規約	7	LAS	2024-10-04	h26tenryulas
+国土交通省	平成27年度　天竜川地形計測業務	独自利用規約	6	LAS	2024-10-04	h27tenryulas
+国土交通省	平成30年度　静岡国道管内航空レーザ測量業務	独自利用規約	171	LAS	2024-10-04	h30shizuokalas
+国土地理院	地球地図（日本）	独自利用規約	42	BIL,PDF,SHP,TIFF,XYZ,ZIP	2024-10-05	103
+国土地理院	基盤地図情報（数値標高モデル）	独自利用規約	1	URL	2024-10-05	010201
+国際航業株式会社	国際航業株式会社　PAREA 航空レーザデータ（DEMデータ）	独自利用規約	4	PDF,URL,ZIP	2024-10-04	laserdem
+国際航業株式会社	国際航業株式会社　PAREA 航空レーザデータ（DSMデータ）	独自利用規約	4	PDF,URL,ZIP	2024-10-04	laserdsm
+壬生町	壬生町三次元点群オリジナルデータ	クリエイティブ・コモンズ 表示	1	PBF	2026-06-09	mibu-pt-cloud
+建設局	【大阪市】淀川区三津屋中1～2丁目周辺三次元点群データ（LAS）	クリエイティブ・コモンズ 表示	3	LAS,PDF	2026-03-27	yodogawakumitsuyanakasyuuhen_las
+建設局	【大阪市】淀川区加島1～4丁目周辺三次元点群データ（LAS）	クリエイティブ・コモンズ 表示	8	LAS,PDF	2026-03-27	yodogawakukashimasyuuhen_las
+建設局	【大阪市】淀川区新高2～6丁目周辺三次元点群データ（LAS）	クリエイティブ・コモンズ 表示	6	LAS,PDF	2026-03-27	yodogawakuniitakasyuuhen_las
+建設局	【大阪市】淀川区野中南周辺三次元点群データ（LAS）	クリエイティブ・コモンズ 表示	9	LAS,PDF	2026-04-02	yodogawakunonakaminamisyuuhen_las
+建設局	京橋駅周辺三次元点群データ（令和３年度、令和４年度取得データ_LAS）	CC-BY	14	PDF,ZIP	2024-10-04	kyoubasiekisyuuhen_las
+徳島県	36_徳島県_標高調査マップ	CC-BY	1	CSV	2024-10-05	36000-025
+新事業チャレンジ推進課	山梨県点群データ（航空LP・MMS）	クリエイティブ・コモンズ 表示	15	3D TILES,PBF,ZIP	2026-09-14	yamanashi-pointcloud-2024
+東京都	東京都デジタルツイン実現プロジェクト　区部点群データ	クリエイティブ・コモンズ 表示	7	PBF,ZIP	2026-02-04	tokyopc-23ku-2024
+東京都	東京都デジタルツイン実現プロジェクト　多摩地域点群データ	CC-BY	10	PBF,ZIP	2024-10-04	tokyopc-tama-2023
+東京都	東京都デジタルツイン実現プロジェクト　島しょ地域点群データ	CC-BY	10	PBF,ZIP	2024-10-04	tokyopc-shima-2023
+林務課・治山課	兵庫県 50cmメッシュ DEM（2021～2022年度）	独自利用規約	1	PBF	2026-02-27	2022-hyougo-geo-dem
+林務課・治山課	兵庫県 50cmメッシュ 数値地形図ポータル（2021年度）	独自利用規約	1		2025-12-10	2021-hyougo-geo-potal
+林務課・治山課	兵庫県 50cmメッシュ 数値地形図ポータル（2021～2022年度）	独自利用規約	2	PDF	2025-12-10	2022-hyougo-geo-potal
+林務課・治山課	兵庫県 50cmメッシュ 標高ラスター/CS立体図（2021～2022年度）	独自利用規約	1	PBF	2026-02-27	2022-hyougo-geo-cs
+林務課・治山課	兵庫県50㎝  メッシュDEM（xyzタイル）	クリエイティブ・コモンズ 表示	3	PDF,XYZ	2025-12-10	dem05_hyogo
+林政企画課	鳥取県「微地形図（CS立体図）」	政府標準利用規約	27	PDF,XYZ,ZIP	2026-09-08	csmap_tottori
+林政企画課	鳥取県「数値標高モデル(DEM)0.5m」	政府標準利用規約	27	PDF,XYZ,ZIP	2026-09-08	dem05_tottori
+林業振興課	京都府「微地形図（赤色立体地図）」	独自利用規約	3	PDF,XYZ	2026-06-10	rrimap_kyotopref
+林業振興課	京都府「数値標高モデル（DEM）」	独自利用規約	14	.ZIP,PDF,ZIP	2025-04-04	dem05_kyoto
+林業政策課	愛媛県「微地形図（CS立体図）」	クリエイティブ・コモンズ 表示	3	PDF,XYZ	2026-09-08	csmap_ehime
+林業政策課	愛媛県「微地形図（赤色立体図）」	クリエイティブ・コモンズ 表示	3	PDF,XYZ	2026-09-08	rrimap_ehime
+林業政策課	愛媛県「数値標高モデル(DEM)0.5m」	クリエイティブ・コモンズ 表示	21	PDF,TIFF	2026-09-08	dem05_ehime
+林野庁	三重県（北伊勢森林計画区）・樹種ポリゴン/林相識別図/DCHM/DEM/微地形表現図（林野庁加工）	政府標準利用規約	46	,7Z,GPKG,PDF,QLR,TIF,XYZ	2026-09-08	kitaise_081
+林野庁	令和2年7月豪雨・DEM/微地形表現図/グラウンドデータ（林野庁加工）	政府標準利用規約	82	,7Z,APPLICATION/X-7Z-COMPRESSED,GPKG,PDF	2026-09-08	r2_7_gouu
+林野庁	令和6年能登半島地震・DEM/微地形表現図/グラウンドデータ（林野庁加工）	政府標準利用規約	78	,7Z,APPLICATION/X-7Z-COMPRESSED,GPKG,PDF	2026-09-08	r6_noto-peninsula-earthquake
+林野庁	大分県（大分南部森林計画区）・樹種ポリゴン/林相識別図/DEM/微地形表現図（林野庁加工）	政府標準利用規約	22	,7Z,GPKG,PDF,QLR,TIF,XYZ	2026-07-27	oita_aerial_laser
+林野庁	山形県（庄内森林計画区）・樹種ポリゴン/林相識別図/DCHM/DEM/微地形表現図（林野庁加工）	政府標準利用規約	43	,7Z,GPKG,PDF,QLR,TIF,XYZ	2026-09-08	028_syounai
+林野庁	平成28年熊本地震・DEM/微地形表現図/グラウンドデータ（林野庁加工）	政府標準利用規約	56	,7Z,APPLICATION/X-7Z-COMPRESSED,GPKG,PDF	2026-09-08	h28_kumamoto_earthquake_aerial_laser
+林野庁	平成30年7月豪雨・DEM/微地形表現図/グラウンドデータ（林野庁加工）	政府標準利用規約	120	,7Z,APPLICATION/X-7Z-COMPRESSED,GPKG,PDF	2026-09-08	h30_7_gouu
+林野庁	徳島県（吉野川森林計画区）・樹種ポリゴン/林相識別図/DCHM/DEM/微地形表現図（林野庁加工）	政府標準利用規約	55	,7Z,GPKG,PDF,QLR,TIF,XYZ	2026-09-08	yoshinokawa_116
+林野庁	徳島県（那賀・海部川森林計画区）・樹種ポリゴン/林相識別図/DCHM/DEM/微地形表現図（林野庁加工）	政府標準利用規約	38	,7Z,GPKG,PDF,QLR,TIF,XYZ	2026-09-08	tokushima_aerial_laser
+林野庁	愛知県（尾張西三河森林計画区）・樹種ポリゴン/林相識別図/DCHM/DEM/微地形表現図（林野庁加工）	政府標準利用規約	79	,7Z,GPKG,PDF,QLR,TIF,XYZ	2026-09-08	owarinishimikawa_078
+林野庁	愛知県（東三河森林計画区）・樹種ポリゴン/林相識別図/DCHM/DEM/微地形表現図（林野庁加工）	政府標準利用規約	56	,7Z,GPKG,PDF,QLR,TIF,XYZ	2026-09-08	higashimikawa_079
+林野庁	長野県（伊那谷森林計画区）・樹種ポリゴン/DCHM/DEM/微地形表現図（林野庁加工）	政府標準利用規約	87	,7Z,GPKG,PDF,QLR,TIF,XYZ	2026-09-08	inatani_067
+枚方市	27210_大阪府_枚方市_地形図	CC-BY	1	ZIP	2024-10-05	27210-022
+株式会社パスコ	2021年7月6日静岡県熱海市土石流災害航空レーザー計測データ	独自利用規約	39	LAS,PDF	2024-10-04	2021-7-6
+株式会社ビィーシステム	G空間情報センターLP点群データの活用例で業務活用	ライセンスが指定されていません	1		2024-10-04	g-lp
+森づくり推進課	赤色立体地図（微地形表現図）	CC-BY	39	PDF,ZIP	2025-01-08	sekisyoku
+森づくり推進課	高知県「微地形図（CS立体図）」	CC-BY	3	PDF,XYZ	2024-10-04	csmap_kochi
+森づくり推進課	高知県「数値標高モデル(DEM)0.5m」	CC-BY	51	GEOTIFF,PDF,TIF,XYZ	2024-10-04	dem05_kochi
+森林政策課	DEM/DCHM/林相識別図マップタイル（林野庁加工）	GNU Free Documentation License	1		2025-03-13	dem-dchm
+森林政策課	富山県　微地形表現図（赤色立体図）_GeoTIFF形式	クリエイティブ・コモンズ 表示	19	ZIP	2026-10-07	https-www-geospatial-jp-ckan-dataset-rrimap_geotiff
+森林政策課	富山県　微地形表現図（赤色立体地図）	CC-BY	3	PDF,XYZ	2025-02-25	rrimap
+森林政策課	富山県　数値標高モデル（DEM）	CC-BY	18	DOCX,PDF,PNG,ZIP	2025-04-14	dem
+森林整備課	栃木県「微地形図（CS立体図）」	CC-BY	3	PDF,XYZ	2024-10-04	csmap_tochigi
+森林整備課	栃木県「数値標高モデル(DEM)0.5m」	CC-BY	31	GEOTIFF,PDF,XYZ	2024-10-04	dem05_tochigi
+水産林務部	【北海道】3D点群　UAV測定データ	CC-BY	3	ZIP	2024-10-05	3duavhokkaido001
+水産林務部	【北海道】3D点群　令和01年度パンケルベシュベの沢ドローンレーザー調査	CC-BY	8	JPEG,ZIP	2024-10-04	r01pankerubeshubeuav
+水産林務部	【北海道】3D点群　平成29年　道有林安平町UAV測定	CC-BY	8	JPEG,ZIP	2024-10-05	h29abiradouyuurinkauav
+水産林務部	【北海道】航空レーザーデータ（R02中田地先小規模治山）	CC-BY	2	,GEOJSON	2024-10-04	r02nakatatisakishoukibochisan
+河川	島根県_河川_数値標高モデル（DEM）1.0ｍ	クリエイティブ・コモンズ 表示	1	PBF	2026-02-12	shimane-kasen-dem
+沼津市	静岡県　沼津市　町方町・通横町第一地区　共同建築帯点群データ	クリエイティブ・コモンズ 表示	4	ZIP	2025-09-30	numazu_matikatamati
+洲本市	洲本城跡三次元点群データ	独自利用規約	48	,LAS	2024-10-04	sumotojoseki
+浦安市	122271_千葉県_浦安市_浦安市地形図データ	CC-BY	1	SHP	2024-10-05	12227-101
+熱海市	熱海市伊豆山地区地形データ	クリエイティブ・コモンズ 表示	3	XML,ZIP	2025-06-25	eg-mydeta
+玉野市	3320433_岡山県_玉野市_標高表示	CC-BY	1	CSV	2024-10-04	33204-004
+県土整備部	埼玉県 山間部点群データ	クリエイティブ・コモンズ 表示	1	PBF	2026-02-10	mountainous-area-pointcloud-saitama
+県土整備部	埼玉県 河川点群データ	クリエイティブ・コモンズ 表示	1	PBF	2026-02-10	river-pointcloud-saitama
+県土整備部	埼玉県 道路点群データ	クリエイティブ・コモンズ 表示	1	PBF	2026-02-10	road-pointcloud-saitama
+県土整備部道路保全課	山形県道路空間点群データ	クリエイティブ・コモンズ 表示	6	PBF,PDF,ZIP	2026-02-10	yamagata-road
+計画調整局	【H20年度】大阪市地形図（地形図データ_DM/DXF/MXD等）	独自利用規約	4	PDF,ZIP	2025-04-01	h20-dm-dxf-mxd
+計画調整局	【H20年度】大阪市地形図（構造化データ_ESRI Shapefile）	独自利用規約	6	PDF,SHP	2025-04-01	h20-esri-shapefile
+計画調整局	【H21年度】大阪市地形図（地形図データ_DM/DXF/MXD等）	独自利用規約	4	PDF,ZIP	2025-04-01	h21-dm-dxf-mxd
+計画調整局	【H21年度】大阪市地形図（構造化データ_ESRI Shapefile）	独自利用規約	7	PDF,SHP	2025-04-01	h21-esri-shapefile
+計画調整局	【H23年度】大阪市地形図（地形図データ_DM/DXF/MXD等）	独自利用規約	4	PDF,ZIP	2025-04-01	h23-dm-dxf-mxd
+計画調整局	【H23年度】大阪市地形図（構造化データ_ESRI Shapefile）	独自利用規約	7	PDF,SHP	2025-04-01	h23-esri-shapefile
+計画調整局	【H24年度】大阪市地形図（地形図データ_DM/DXF/MXD等）	独自利用規約	4	PDF,ZIP	2025-04-01	h24-dm-dxf-mxd
+計画調整局	【H24年度】大阪市地形図（構造化データ_ESRI Shapefile）	独自利用規約	7	PDF,SHP	2025-04-01	h24-esri-shapefile
+計画調整局	【H25年度】大阪市地形図（地形図データ_DM/DXF/MXD/PDF等）	独自利用規約	5	PDF,ZIP	2025-04-01	h25-dm-dxf-mxd-pdf
+計画調整局	【H25年度】大阪市地形図（構造化データ_ESRI Shapefile）	独自利用規約	7	PDF,SHP	2025-04-01	h25-esri-shapefile
+計画調整局	【H26年度】大阪市地形図（地形図データ_DM/DXF/MXD/PDF等）	独自利用規約	5	PDF,ZIP	2025-04-01	h26-dm-dxf-mxd-pdf
+計画調整局	【H26年度】大阪市地形図（構造化データ_ESRI Shapefile）	独自利用規約	8	PDF,SHP	2025-04-01	h26-esri-shapefile
+計画調整局	【H27年度】大阪市地形図（地形図データ_DM/DXF/MXD/PDF等）	独自利用規約	5	PDF,ZIP	2025-04-01	h27-dm-dxf-mxd-pdf
+計画調整局	【H27年度】大阪市地形図（構造化データ_ESRI Shapefile）	独自利用規約	9	PDF,SHP	2025-04-01	h27-esri-shapefile
+計画調整局	【H28年度】大阪市地形図（地形図データ_DM/DXF/MXD/PDF等）	独自利用規約	5	PDF,ZIP	2025-04-01	h28-dm-dxf-mxd-pdf
+計画調整局	【H28年度】大阪市地形図（構造化データ_ESRI Shapefile）	独自利用規約	9	PDF,SHP	2025-04-01	h28-esri-shapefile
+計画調整局	【H29年度】大阪市地形図（地形図データ_DM/DXF/MXD/PDF等）	独自利用規約	5	PDF,ZIP	2025-04-01	h29-dm-mxd-pdf-dxf
+計画調整局	【H29年度】大阪市地形図（構造化データ_ESRI Shapefile）	独自利用規約	9	PDF,SHP	2025-04-01	h29-structured
+計画調整局	【H30年度】大阪市地形図（地形図データ_DM/DXF/MXD/PDF等）	独自利用規約	5	PDF,ZIP	2025-04-01	h30-dm-pdf-dxf
+計画調整局	【H30年度】大阪市地形図（構造化データ_ESRI Shapefile）	独自利用規約	9	PDF,SHP	2025-04-01	h30-esri-shapefile
+計画調整局	【R01年度】大阪市地形図（地形図データ_DM/DXF/MXD/PDF等）	独自利用規約	5	PDF,ZIP	2025-04-01	r01-dm-pdf-dxf
+計画調整局	【R01年度】大阪市地形図（構造化データ_ESRI Shapefile）	独自利用規約	9	PDF,SHP	2025-04-01	r01-esri-shapefile
+計画調整局	【R02年度】大阪市地形図（地形図データ_DM/DXF/MXD/PDF等）	独自利用規約	5	PDF,ZIP	2025-04-01	r02-dm-pdf-dxf
+計画調整局	【R02年度】大阪市地形図（構造化データ_ESRI Shapefile）	独自利用規約	9	PDF,SHP	2025-04-01	r02-esri-shapefile
+計画調整局	【R03年度】大阪市地形図（地形図データ_DM/DXF/MXD/PDF等）	独自利用規約	5	PDF,ZIP	2025-04-01	r03-dm-dxf-mxd-pdf
+計画調整局	【R03年度】大阪市地形図（構造化データ_ESRI Shapefile）	独自利用規約	9	PDF,SHP	2025-04-01	r03-esri-shapefile
+計画調整局	【R04年度】大阪市地形図（地形図データ_DM/DXF/MXD/PDF等）	独自利用規約	5	PDF,ZIP	2025-10-01	r04-dm-dxf-mxd-pdf
+計画調整局	【R04年度】大阪市地形図（構造化データ_ESRI Shapefile）	独自利用規約	9	PDF,SHP	2025-10-01	r04-esri-shapefile
+計画調整局	【R05年度】大阪市地形図（地形図データ_DM/DXF/MXD/PDF等）	独自利用規約	5	PDF,ZIP	2026-02-03	r05-dm-dxf-mxd-pdf
+計画調整局	【R05年度】大阪市地形図（構造化データ_ESRI Shapefile）	独自利用規約	9	PDF,SHP	2025-10-01	r05-esri-shapefile
+計画調整局	【R06年度】大阪市地形図（地形図データ_DM/DXF/MXD/PDF等）	独自利用規約	5	PDF,ZIP	2026-02-03	r06-dm-dxf-mxd-pdf
+計画調整局	【R06年度】大阪市地形図（構造化データ_ESRI Shapefile）	独自利用規約	9	PDF,SHP	2026-02-03	r06-esri-shapefile
+計画調整局	【R07年度】大阪市地形図（地形図データ_DM/DXF/APRX/PDF等）	独自利用規約	5	PDF,ZIP	2026-08-28	r07-_dm-dxf-aprx-pdf
+計画調整局	【R07年度】大阪市地形図（構造化データ_ESRI Shapefile）	独自利用規約	9	PDF,ZIP	2026-08-28	r07-_esri-shapefile
+都市局	2025年大阪・関西万博会場　3次元点群データ	独自利用規約	2	PBF,PDF	2026-03-07	osakaexpo-2025
+静岡市	駿府城点群データ（令和７年度）	クリエイティブ・コモンズ 表示	11	LAS,PNG	2026-10-09	sumpu-castle
+静岡県	VIRTUAL SHIZUOKA 静岡県 中・西部 点群データ	Open Data Commons Open Database License	16	PBF,PDF,SHP,TXT,XLSX,ZIP	2026-09-08	virtual-shizuoka-mw
+静岡県	VIRTUAL SHIZUOKA 静岡県 中西部沿岸 点群データ	クリエイティブ・コモンズ 表示	9	PBF,ZIP	2026-09-08	shizuoka-2025-pointcloud-alb
+静岡県	VIRTUAL SHIZUOKA 静岡県 伊豆西部 点群データ	クリエイティブ・コモンズ 表示	16	CSV,PBF,PNG,SHP	2026-09-08	shizuoka-2020-pointcloud
+静岡県	VIRTUAL SHIZUOKA 静岡県 北西部 点群データ	クリエイティブ・コモンズ 表示	9	PBF,SHP,TXT,XLSX	2026-09-08	shizuoka-2025-pointcloud
+静岡県	VIRTUAL SHIZUOKA 静岡県 北部（南アルプス） 点群データ	クリエイティブ・コモンズ 表示	6	PBF	2025-10-09	shizuoka-2022-pointcloud
+静岡県	VIRTUAL SHIZUOKA 静岡県 富士山および静岡東部 点群データ	クリエイティブ・コモンズ 表示	15	CSV,PBF,SHP	2026-09-08	shizuoka-2021-pointcloud
+静岡県	VIRTUAL SHIZUOKA 静岡県 富士山南東部・伊豆東部 点群データ	クリエイティブ・コモンズ 表示	16	CSV,PBF,PNG,SHP	2026-09-08	shizuoka-2019-pointcloud
+静岡県	VIRTUAL SHIZUOKA 静岡県熱海市3次元点群データ	クリエイティブ・コモンズ 表示	43	JPEG,LAS	2026-04-23	atami-3d
+静岡県	平成30年度［第30-K3245-01号］二級河川瀬戸川ほか河川改良に伴う測量業務委託（航空レーザー測量）	独自利用規約	2	GEOJSON,URL	2024-10-05	mcc-5260
+鳥取県	鳥取砂丘の各種地形データ（鳥取砂丘月面化プロジェクト）	CC-BY	3		2024-10-04	tottori-sanddunes-data

@@ -1,0 +1,8 @@
+inatani_067 23 https://www.geospatial.jp/ckan/dataset/a6b0c3a4-471e-409a-8d70-d2b028d3f776/resource/d2531e78-4870-45e4-a50e-99c60d71b638/download/dem_08jc4_2025.tif
+kitaise_081 13 https://www.geospatial.jp/ckan/dataset/e17e8af8-ce78-4d8a-865b-e8a093463b48/resource/e78ed492-ea84-4e29-b866-d9b286c6034d/download/dem_06me4_2025.tif
+owarinishimikawa_078 20 https://www.geospatial.jp/ckan/dataset/354a91b6-f0fb-4f8a-a4ef-957d4d0ba058/resource/afede7ae-8e41-4dd0-8861-18bcfe7e52e7/download/dem_07md1_2025.tif
+higashimikawa_079 18 https://www.geospatial.jp/ckan/dataset/3589e801-0e6c-4b7d-bc86-6a92bf1b3a1e/resource/e977007a-4b45-471c-9251-3688d6896f29/download/www.geospatial.jpdem_07me4_2025.tif
+yoshinokawa_116 16 https://www.geospatial.jp/ckan/dataset/acb7ceb8-2706-432d-b16c-6e0f4da5b110/resource/6712a285-0901-4c68-9458-75b208f05c30/download/www.geospatial.jpdem_04fe4_2025.tif
+tokushima_aerial_laser 10 https://www.geospatial.jp/ckan/dataset/f33bfb8c-af5f-4bd3-932b-740133bad459/resource/5154984c-6a27-4a62-aaea-2018819e87d0/download/dem_04gf3_2025.tif
+028_syounai 17 https://www.geospatial.jp/ckan/dataset/af06e98a-aca2-4fb8-a0a2-33f18beccbc8/resource/d241b9f4-f038-4eb4-baa0-a642c3e9056e/download/dem_10mb3_2025.tif
+oita_aerial_laser 8 https://www.geospatial.jp/ckan/dataset/202aa8c4-93ea-4a1d-a493-fb436e864ef0/resource/2115d9cc-7746-4619-a32d-7deebf114c88/download/www.geospatial.jpwww.geospatial.jpdem_02jf4_2025.tif

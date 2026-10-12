@@ -1,0 +1,9 @@
+https://data.source.coop/smartmaps/japan-geotiff-dem/10/FG-GML-5334-00-dem10b-20161001.tif
+https://data.source.coop/smartmaps/japan-geotiff-dem/10/FG-GML-5334-01-dem10b-20161001.tif
+https://data.source.coop/smartmaps/japan-geotiff-dem/10/FG-GML-5334-02-dem10b-20161001.tif
+https://data.source.coop/smartmaps/japan-geotiff-dem/10/FG-GML-5334-10-dem10b-20161001.tif
+https://data.source.coop/smartmaps/japan-geotiff-dem/10/FG-GML-5334-11-dem10b-20161001.tif
+https://data.source.coop/smartmaps/japan-geotiff-dem/10/FG-GML-5334-12-dem10b-20161001.tif
+https://data.source.coop/smartmaps/japan-geotiff-dem/10/FG-GML-5334-20-dem10b-20161001.tif
+https://data.source.coop/smartmaps/japan-geotiff-dem/10/FG-GML-5334-21-dem10b-20161001.tif
+https://data.source.coop/smartmaps/japan-geotiff-dem/10/FG-GML-5334-22-dem10b-20161001.tif

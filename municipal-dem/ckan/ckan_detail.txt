@@ -1,0 +1,162 @@
+### nagano-dem | 長野県 _0.5mDEM | クリエイティブ・コモンズ 表示 | res=14 | size=0.0GB | mod=2026-09-14
+長野県の地域ごとに分かれた0.5ｍメッシュDEMデータのZIPファイル。 平成25年～26年に長野県林務部が計測した航空レーザ測量データを基に作成したGeoTIFF形式の画像データです。 本データは大容量のため、ダウンロードする際にはご注意ください。 仕様 位置情報付き画像ファイル（GeoTIF形式）
+  - 上伊那 [ZIP] None https://gsic-opendata.s3.ap-northeast-1.amazonaws.com/local-gov/nagano/forestry-research-center/dem/nagano-dem
+  - 木曽 [ZIP] None https://gsic-opendata.s3.ap-northeast-1.amazonaws.com/local-gov/nagano/forestry-research-center/dem/nagano-dem
+  - 北安曇1 [ZIP] None https://gsic-opendata.s3.ap-northeast-1.amazonaws.com/local-gov/nagano/forestry-research-center/dem/nagano-dem
+  - 北安曇２ [ZIP] None https://gsic-opendata.s3.ap-northeast-1.amazonaws.com/local-gov/nagano/forestry-research-center/dem/nagano-dem
+  - 長野 [ZIP] None https://gsic-opendata.s3.ap-northeast-1.amazonaws.com/local-gov/nagano/forestry-research-center/dem/nagano-dem
+  - 北信１ [ZIP] None https://gsic-opendata.s3.ap-northeast-1.amazonaws.com/local-gov/nagano/forestry-research-center/dem/nagano-dem
+
+### dem05_kochi | 高知県「数値標高モデル(DEM)0.5m」 | CC-BY | res=51 | size=89.0GB | mod=2024-10-04
+平成30年度に林野庁が実施した航空レーザ測量データを基に、高知県が作成した**0.5ｍ解像度の「数値標高モデル（DEM）」**です。 「数値標高モデル（DEM）」は標高値（メートル）のメッシュデータです。**TIFFデータ**と**タイル形式（Terrain-RGB）**でご提供しています。 &emsp;TIFFデータは位置情報付き画像ファイルですので、データをダウンロードし、地理情報システム（GIS）等にファイルを取り込むことでご利用いただけます。ファイル単位は国土基本図図郭をベースとしています。各図郭番号の位置は、別添「図郭割（インデックス）図」を参照してください。データは大容量のため、ダウンロードする際にはデータ容量にご注意ください。 &emsp;Terrain-RGBは、標高値を以下の変換式に基づいてRGB値に変換したデータです。GIS等でタイルURLを接続することでご利用いただけます。ご提供するデータの範囲についても、別添「図郭割（インデックス）図」をご参照ください。 **【仕様】** **ファイル形式** &emsp;・GeoTIFF（参照座標系：JGD2011/平面直角座標系） &emsp;・XYZタイル形式（ズームレベル2～18、参照座標系：EPSG:3857 - WGS 84（Webメルカトル）） **出力範囲** &emsp;別添「図郭割（インデックス）図」の通り **標高値のRGB変換式** &emsp;標高＝-10,000+[(R×256×256＋G×256＋B)×0.1] --------------------------------------------------- 
+  - 高知県_利用規約 [PDF] 82765 https://www.geospatial.jp/ckan/dataset/7aa5b940-c12d-455d-87ff-077506e9d2f6/resource/6118d9ce-a411-4e21-8f31-2
+  - 図郭割（インデックス）図 [PDF] 1196727 https://www.geospatial.jp/ckan/dataset/7aa5b940-c12d-455d-87ff-077506e9d2f6/resource/2892bb21-e06e-4b3e-9de0-3
+  - terrainRGB [XYZ] None 
+  - dem_04GD3 [GeoTIFF] 71234800 https://www.geospatial.jp/ckan/dataset/7aa5b940-c12d-455d-87ff-077506e9d2f6/resource/7d5714d2-ff9f-4b1f-b173-5
+  - dem_04GD4 [GeoTIFF] 574723427 https://www.geospatial.jp/ckan/dataset/7aa5b940-c12d-455d-87ff-077506e9d2f6/resource/91485d0d-2de4-4cd4-affc-8
+  - dem_04GE3 [GeoTIFF] 1662847733 https://www.geospatial.jp/ckan/dataset/7aa5b940-c12d-455d-87ff-077506e9d2f6/resource/4a230aa1-50c8-4741-a822-4
+
+### dem05_tochigi | 栃木県「数値標高モデル(DEM)0.5m」 | CC-BY | res=31 | size=48.5GB | mod=2024-10-04
+令和３～４年度に栃木県が実施した航空レーザ測量データを使用して作成した**0.5ｍ解像度の「数値標高モデル（DEM）」**です。 「数値標高モデル（DEM）」は標高値（メートル）のメッシュデータです。**TIFFデータ**と**タイル形式（Terrain-RGB）**でご提供しています。 &emsp;TIFFデータは位置情報付き画像ファイルですので、データをダウンロードし、地理情報システム（GIS）等にファイルを取り込むことでご利用いただけます。ファイル単位は国土基本図図郭をベースとしています。各図郭番号の位置は、別添「図郭割（インデックス）図」を参照してください。データは大容量のため、ダウンロードする際にはデータ容量にご注意ください。 &emsp;Terrain-RGBは、標高値を以下の変換式に基づいてRGB値に変換したデータです。GIS等でタイルURLを接続することでご利用いただけます。ご提供するデータの範囲についても、別添「図郭割（インデックス）図」をご参照ください。 **【仕様】** **ファイル形式** &emsp;・GeoTIFF（参照座標系：JGD2011/平面直角座標系） &emsp;・XYZタイル形式（ズームレベル2～18、参照座標系：EPSG:3857 - WGS 84（Webメルカトル）） **出力範囲** &emsp;別添「図郭割（インデックス）図」の通り **標高値のRGB変換式** &emsp;標高＝-10,000+[(R×256×256＋G×256＋B)×0.1] --------------------------------------------------- 
+  - 栃木県_利用規約 [PDF] 103193 https://www.geospatial.jp/ckan/dataset/bf055864-aebc-4980-aeca-5b4bf1d5e41c/resource/66204bbd-2e0b-4df1-98b1-e
+  - 図郭割（インデックス）図 [PDF] 2407611 https://www.geospatial.jp/ckan/dataset/bf055864-aebc-4980-aeca-5b4bf1d5e41c/resource/e1fdf775-3c3f-4376-938d-d
+  - terrainRGB [XYZ] None 
+  - dem_09FD4 [GeoTIFF] 195352198 https://www.geospatial.jp/ckan/dataset/bf055864-aebc-4980-aeca-5b4bf1d5e41c/resource/ea89dd32-75fe-4688-9750-f
+  - dem_09FE3 [GeoTIFF] 1623330545 https://www.geospatial.jp/ckan/dataset/bf055864-aebc-4980-aeca-5b4bf1d5e41c/resource/42e0a4ba-ce70-4e0f-8a26-2
+  - dem_09FE4 [GeoTIFF] 416650088 https://www.geospatial.jp/ckan/dataset/bf055864-aebc-4980-aeca-5b4bf1d5e41c/resource/6f650ae8-0e46-4dce-b8e7-f
+
+### dem05_ehime | 愛媛県「数値標高モデル(DEM)0.5m」 | クリエイティブ・コモンズ 表示 | res=21 | size=0.0GB | mod=2026-09-08
+平成30年度に林野庁が実施した航空レーザ測量データを基に、愛媛県が作成した0.5m解像度の「数値標高モデル（DEM）」です。 「数値標高モデル（DEM）」は、建物や樹木などを取り除いた地表面の高さ（メートル）を表すメッシュデータです。GeoTIFFデータでご提供しています。 GeoTIFFデータは位置情報付き画像ファイルですので、データをダウンロードし、地理情報システム（GIS）等にファイルを取り込むことでご利用いただけます。ファイル単位は国土基本図図郭をベースとしています。各図郭番号の位置は、別添「図郭割（インデックス）図」を参照してください。データは大容量のため、ダウンロードする際にはデータ容量にご注意ください。ご提供するデータの範囲についても、別添「図郭割（インデックス）図」をご参照ください。 **【仕様】** **ファイル形式** &emsp;・GeoTIFF（参照座標系：JGD2011/平面直角座標系） **出力範囲** &emsp;別添「図郭割（インデックス）図」の通り 
+  - 愛媛県　利用規約 [PDF] None https://gsic-opendata.s3.ap-northeast-1.amazonaws.com/local-gov/ehime/forestry-policy/dem/2024/dem05_ehime/doc
+  - データ範囲図 [PDF] None https://gsic-opendata.s3.ap-northeast-1.amazonaws.com/local-gov/ehime/forestry-policy/dem/2024/dem05_ehime/doc
+  - dem_38201_matsuyama.zip [TIFF] None https://gsic-opendata.s3.ap-northeast-1.amazonaws.com/local-gov/ehime/forestry-policy/dem/2024/dem05_ehime/dem
+  - dem_38202_imabari.zip [TIFF] None https://gsic-opendata.s3.ap-northeast-1.amazonaws.com/local-gov/ehime/forestry-policy/dem/2024/dem05_ehime/dem
+  - dem_38203_uwajima.zip [TIFF] None https://gsic-opendata.s3.ap-northeast-1.amazonaws.com/local-gov/ehime/forestry-policy/dem/2024/dem05_ehime/dem
+  - dem_38204_yawatahama.zip [TIFF] None https://gsic-opendata.s3.ap-northeast-1.amazonaws.com/local-gov/ehime/forestry-policy/dem/2024/dem05_ehime/dem
+
+### dem05_tottori | 鳥取県「数値標高モデル(DEM)0.5m」 | 政府標準利用規約 | res=27 | size=0.0GB | mod=2026-09-08
+平成30年度～令和6年度に鳥取県等が実施した航空レーザ測量データを使用して作成した**0.5ｍ解像度の「数値標高モデル（DEM）」**です。各区域の計測年度は[鳥取県ホームページ](https://www.pref.tottori.lg.jp/secure/1386525/datelist_R70722.pdf)をご確認ください。 「数値標高モデル（DEM）」は標高値（メートル）のメッシュデータです。 **【仕様】** **TIFFデータ**と**タイル形式（Terrain-RGB）**、**タイル形式（PNG標高タイル）**でご提供しています。 TIFFデータは位置情報付き画像ファイルですので、データをダウンロードし、地理情報システム（GIS）等にファイルを取り込むことでご利用いただけます。ファイル単位は国土基本図図郭をベースとしています。各図郭番号の位置は、別添「図郭割（インデックス）図」を参照してください。データは大容量のため、ダウンロードする際にはデータ容量にご注意ください。 Terrain-RGBは、標高値を以下の変換式に基づいてRGB値に変換したデータです。 PNG標高タイルは、Terrain-RGBと異なる変換式に基づいてRGB値に変換したデータです。（国土地理院の地理院地図で使用されている形式です。） どちらのタイルも、GIS等でタイルURLを接続することでご利用いただけます。 **・ファイル形式** &emsp;ZIP（GeoTIFF 参照座標系：JGD2011/平面直角座標系） &emsp;XYZタイル形式（ズームレベル7～18、参照座標系：EPSG:3857 - WGS 84（Webメルカトル）） **・出力範囲** &emsp;別添「図郭割（インデックス）図」の通り **【参考情報】** **標高値のRGB変換式（Terrain-RGB形式）** &emsp;標高＝-10,000+[(R×256×256＋G×256＋B)×0.1] **標高値のRGB変換式（PNG標高タイル形式）** &emsp;[国土地理院のホームページ](https://maps.gsi.go.jp/development/demtile.html)をご参照ください。 **【利用条件】** 本データには特段の記載がない限り公共データ利用規約（第1.0版）（PDL1.0）が適用されており、商用利用も含め、どなたでも無償でご利用いただけます。詳細は[鳥取県ホームページ](https://www.pref.tottori.lg.jp/322140.htm)の利用規約をご確認ください。 --- **【更新情報】** 2025年6月23日 日南町のデータに不備が確認されたため、今後差替え予定です。 （該当データ：図郭番号05MB3、05MB4、05NB1、05NB2） 20
+  - 図郭割（インデックス）図 [PDF] 5494511 https://www.geospatial.jp/ckan/dataset/a3c1ac81-4209-4352-9f41-cd52cd0f2283/resource/be63b1cd-a6c0-4466-80fc-f
+  - terrainRGB [XYZ] None 
+  - PNG標高タイル [XYZ] None 
+  - dem_05lb4.zip [ZIP] None https://gsic-opendata.s3.ap-northeast-1.amazonaws.com/local-gov/tottori/forestry-policy-planning/dem/2024/dem0
+  - dem_05lc3.zip [ZIP] None https://gsic-opendata.s3.ap-northeast-1.amazonaws.com/local-gov/tottori/forestry-policy-planning/dem/2024/dem0
+  - dem_05lc4.zip [ZIP] None https://gsic-opendata.s3.ap-northeast-1.amazonaws.com/local-gov/tottori/forestry-policy-planning/dem/2024/dem0
+
+### dem | 富山県　数値標高モデル（DEM） | CC-BY | res=18 | size=17.7GB | mod=2025-04-14
+&emsp;航空レーザ測量データを基に、富山県が作成した0.5m解像度の**「数値標高モデル（DEM）」**です。 &emsp;「数値標高モデル（DEM）」は標高値（メートル）のメッシュデータです。TIFFデータでご提供しています。TIFFデータは位置情報付き画像ファイルですので、データをダウンロードし、地理情報システム（GIS）等にファイルを取り込むことでご利用いただけます。ファイル単位は国土基本図図郭 ＜地図情報レベル1250＞をベースとし、地図情報レベル50000の図郭ごとにまとめて圧縮をしています（容量が大きい図郭は複数のフォルダに分割しています）。各図郭番号の位置は、別添「図郭割（インデックス）図」を参照してください。データは大容量のため、ダウンロードする際にはデータ容量にご注意ください。 &emsp;ファイル名には地図情報レベル1250の図郭番号がついています。 &emsp;データの利用にあたっては利用規約をご確認ください。 **【仕様】** **ファイル形式** ・zip（GeoTIFF（参照座標系：JGD2011/平面直角座標系）） **出力範囲** 別添「図郭割（インデックス）図」の通り
+  - 01富山県森林資源データの利用規約.pdf [PDF] 135426 https://www.geospatial.jp/ckan/dataset/af567c48-6f2b-45fc-80b4-8a12d5a13146/resource/c2146c3b-13eb-4b12-80e4-f
+  - 02航空レーザ測量成果及び解析成果の利用について.pdf [PDF] 5832071 https://www.geospatial.jp/ckan/dataset/af567c48-6f2b-45fc-80b4-8a12d5a13146/resource/1ccdf7bf-2a09-457a-bef8-e
+  - 03様式(9～12号).docx [DOCX] 35263 https://www.geospatial.jp/ckan/dataset/af567c48-6f2b-45fc-80b4-8a12d5a13146/resource/c9cc19d8-5074-4960-b03f-e
+  - 図郭割図(インデックス図) [PNG] 806408 https://www.geospatial.jp/ckan/dataset/af567c48-6f2b-45fc-80b4-8a12d5a13146/resource/ba5bf3f6-602c-4eba-8273-2
+  - GD.zip [ZIP] 1460074628 https://www.geospatial.jp/ckan/dataset/af567c48-6f2b-45fc-80b4-8a12d5a13146/resource/35d842e3-48ac-468c-91bf-c
+  - GE.zip [ZIP] 1441637381 https://www.geospatial.jp/ckan/dataset/af567c48-6f2b-45fc-80b4-8a12d5a13146/resource/5123a0d4-16c1-4375-9f52-0
+
+### dem05_kyoto | 京都府「数値標高モデル（DEM）」 | 独自利用規約 | res=14 | size=10.3GB | mod=2025-04-04
+平成31年～令和5年にかけて、航空レーザ測量により計測されたデータを使用して作成した0.5ｍ解像度の「数値標高モデル（DEM）」です。「数値標高モデル（DEM）」は標高値（メートル）のメッシュデータです。TIFFデータでご提供しています。 TIFFデータは位置情報付き画像ファイルですので、データをダウンロードし、地理情報システム（GIS）等にファイルを取り込むことでご利用いただけます。ファイル単位は国土基本図図郭をベースとしています。各図郭番号の位置は、別添「図郭割（インデックス）図」を参照してください。データは大容量のため、ダウンロードする際にはデータ容量にご注意ください。提供するデータの範囲についても、別添「図郭割（インデックス）図」をご参照ください。 【仕様】 ファイル形式 ・GeoTIFF（参照座標系：JGD2011/平面直角座標系） 出力範囲 別添「図郭割（インデックス）図」の通り 
+  - 京都府利用規約 [PDF] 206569 https://www.geospatial.jp/ckan/dataset/a7c25ae6-cc29-4f3a-98e9-d32b946dd06b/resource/ce464ec1-da1e-4ae5-ba73-3
+  - 図郭割（インデックス）図PDF [PDF] 860517 https://www.geospatial.jp/ckan/dataset/a7c25ae6-cc29-4f3a-98e9-d32b946dd06b/resource/43271254-2771-4c52-9c6e-6
+  - 06KB.zip [ZIP] 37332669 https://www.geospatial.jp/ckan/dataset/a7c25ae6-cc29-4f3a-98e9-d32b946dd06b/resource/eee37677-cd7e-4ace-b396-5
+  - 06KC.zip [ZIP] 428931121 https://www.geospatial.jp/ckan/dataset/a7c25ae6-cc29-4f3a-98e9-d32b946dd06b/resource/2ee0eb84-3aa6-4849-b695-4
+  - 06LB.zip [ZIP] 3393348317 https://www.geospatial.jp/ckan/dataset/a7c25ae6-cc29-4f3a-98e9-d32b946dd06b/resource/2220cd71-47be-4408-a048-8
+  - 06LC.zip [ZIP] 3691599683 https://www.geospatial.jp/ckan/dataset/a7c25ae6-cc29-4f3a-98e9-d32b946dd06b/resource/df582950-0148-4963-ac9c-2
+
+### dem05_hyogo | 兵庫県50㎝  メッシュDEM（xyzタイル） | クリエイティブ・コモンズ 表示 | res=3 | size=0.0GB | mod=2025-12-10
+兵庫県（令和２～３年度）及び国土交通省近畿地方整備局六甲砂防事務所（平成24～25年度）が実施した航空レーザ測量データを使用して作成した**0.5ｍ解像度の「数値標高モデル（DEM）」**です。 「数値標高モデル（DEM）」は標高値（メートル）のメッシュデータです。**タイル形式（Terrain-RGB）**でご提供しています。 &emsp;Terrain-RGBは、標高値を以下の変換式に基づいてRGB値に変換したデータです。GIS等でタイルURLを接続することでご利用いただけます。ご提供するデータの範囲についても、別添「データ範囲図」をご参照ください。 **【仕様】** **ファイル形式** &emsp;・XYZタイル形式（ズームレベル2～18、参照座標系：EPSG:3857 - WGS 84（Webメルカトル）） **出力範囲** &emsp;別添「データ範囲図」の通り **標高値のRGB変換式** &emsp;標高＝-10,000+[(R×256×256＋G×256＋B)×0.1] --------------------------------------------------- 
+  - 兵庫県_利用規約 [PDF] 181164 https://www.geospatial.jp/ckan/dataset/afdf565c-f428-4a51-9c04-892c3a2a4282/resource/dcccaaf9-e230-44be-bfa8-5
+  - データ範囲図 [PDF] 2023692 https://www.geospatial.jp/ckan/dataset/afdf565c-f428-4a51-9c04-892c3a2a4282/resource/76689198-844f-463e-ae7f-b
+  - terrainRGB [XYZ] None 
+
+### 2022-hyougo-geo-dem | 兵庫県 50cmメッシュ DEM（2021～2022年度） | 独自利用規約 | res=1 | size=0.0GB | mod=2026-02-27
+__「DEM」__は、航空レーザ測量成果のうち、建物、植生等を除去した地表面の数値標高モデルです。 データは50cm間隔の格子状で、XYZ座標値を示したテキストデータです。 ※兵庫県が実施した__50cmメッシュ__の航空レーザ測量データを使用して作成 大容量のデータのため、国土基本図郭1250単位でデータを分割し、国土基本図郭5000単位数面をまとめて格納しています（各図郭の位置は、下記の__IndexMap__を参照） ※本データは大容量のため、ダウンロードする際はご注意ください。 #仕様： XYZ座標値、テキスト形式 測地成果2000 平面直角座標系第V系 ーーーーーーーーーーーーーー 兵庫県では、他に「標高ラスター／CS立体図」「DSM」についてもデータを公開しています。 「標高ラスター／CS立体図」のダウンロードはこちらから↓ https://www.geospatial.jp/ckan/dataset/2022-hyougo-geo-cs 「DSM」データのダウンロードはこちらから↓ https://www.geospatial.jp/ckan/dataset/2022-hyougo-geo-dsm [![ライセンス](https://i.creativecommons.org/l/by/4.0/88x31.png)](https://creativecommons.org/licenses/by/4.0/deed.ja) 
+  - 【2021～2022】DEM [PBF] None https://gic-hyogo.s3.ap-northeast-1.amazonaws.com/2022/Vectortile2026/dem/{z}/{x}/{y}.pbf
+
+### 2010-2018-hyogo-geo-dem | 兵庫県_全域DEM（2010年度～2018年度） | 独自利用規約 | res=2 | size=0.0GB | mod=2025-12-10
+__「DEM」__は、航空レーザ測量成果のうち、建物、植生等を除去した地表面の数値標高モデルです。 データは1m間隔の格子状で、XYZ座標値を示したテキストデータです。 ※兵庫県、国土交通省近畿地方整備局六甲砂防事務所が実施した__1mメッシュ__の航空レーザ測量データを使用して作成 大容量のデータのため、国土基本図郭2500単位でデータを分割し、国土基本図郭5000単位数面をまとめて格納しています（各図郭の位置は、下記の__IndexMap__を参照） ※本データは大容量のため、ダウンロードする際はご注意ください。 #仕様： XYZ座標値、テキスト形式 測地成果2000 平面直角座標系第V系 ーーーーーーーーーーーーーー 兵庫県では、他に「標高ラスター／CS立体図」「DSM」についても、県全域のデータを公開しています。 「標高ラスター／CS立体図」のダウンロードはこちらから↓ https://www.geospatial.jp/ckan/dataset/2010-2018-hyogo-geo-cs 「DSM」データのダウンロードはこちらから↓ https://www.geospatial.jp/ckan/dataset/2010-2018-hyogo-geo-dsm [![ライセンス](https://i.creativecommons.org/l/by/4.0/88x31.png)](https://creativecommons.org/licenses/by/4.0/deed.ja) 
+  - Indexmap（PDFファイル） [PDF] None https://www.geospatial.jp/ckan/dataset/e7bf28b7-da92-401c-b9d0-4afa40cad8af/resource/1f2cd5dd-7923-4a32-9642-2
+  - DEM　ダウンロードページ [PBF] None https://gic-raster-tiles.s3-ap-northeast-1.amazonaws.com/hyougo/Hyougo_DEM/{z}/{x}/{y}.pbf
+
+### shimane-kasen-dem | 島根県_河川_数値標高モデル（DEM）1.0ｍ | クリエイティブ・コモンズ 表示 | res=1 | size=0.0GB | mod=2026-02-12
+「数値標高モデル（ＤＥＭ）」は標高値のメッシュデータです。 平成27年度から平成28年度にかけて、島根県が管理する河川の左右岸から20ｍの範囲で実施した航空レーザ測量成果を元に、1.0ｍの解像度で作成しました。 ［ファイル形式］ LASファイル ［出力範囲］ 別添「図郭図（インデックス）図」のとおり ［出典］ この測量成果は、国土地理院長の承認及び助言を得て同院所管の測量成果を使用して得たものである。（承認番号）平27 中公 第111号 ［利用条件］ 本コンテンツには特段の記載が無い限り公共データ利用規約（第1.0版）（PDL1.0）（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）が適用されています。PDL1.0のうち、本ルールの適用を受けないコンテンツ等サイトによって内容が異なる部分の情報については、「島根県河川関連オープンデータの利用に係る公共データ利用規約（第1.0版）に関する重要情報」（https://www.pref.shimane.lg.jp/kasen/laser/）を参照してください。
+  - 島根県河川数値標高モデル（DEM）1.0m [PBF] None https://gic-shimane.s3.ap-northeast-1.amazonaws.com/2015/river/Vectortile/LP/grid/{z}/{x}/{y}.pbf
+
+### tokyopc-23ku-2024 | 東京都デジタルツイン実現プロジェクト　区部点群データ | クリエイティブ・コモンズ 表示 | res=7 | size=0.1GB | mod=2026-02-04
+航空レーザ測量により取得した16点/平方m以上の高密度点群データです。 各ダウンロードページより、1/500図郭単位で、LAS等の各種形式をZIP圧縮したファイルのダウンロードができます。データの座標参照系は、日本測地系2011／平面直角座標系第9系です。 ** 注意 ** 1. ひとつのファイルの平均サイズが約200MBあります。最も大きなファイルは約400MBあります。ダウンロードに際しては、帯域によっては時間がかかること、保存先の空き容量にご注意ください。 2. 本業務は0.25m及び0.5mのグリッドデータ作成の仕様となっております。 3. 可能な限りのクリーニングはしていますが、データに外れ値が含まれていることをご了承ください。 
+  - 索引図 [ZIP] 64888110 https://www.geospatial.jp/ckan/dataset/a5a12414-671d-47e9-b8af-63b92de62949/resource/c5bfa424-bed8-4ce1-902d-0
+  - オリジナルデータ（DSM）及びグラウンドデータ（DEM） [PBF] None https://gic-tokyo.s3.ap-northeast-1.amazonaws.com/2024/dig/Vectortile/23ku/lp/{z}/{x}/{y}.pbf
+  - グリッドデータDEM（0.25m） [PBF] None https://gic-tokyo.s3.ap-northeast-1.amazonaws.com/2024/dig/Vectortile/23ku/grd25/{z}/{x}/{y}.pbf
+  - グリッドデータDEM（0.50m） [PBF] None https://gic-tokyo.s3.ap-northeast-1.amazonaws.com/2024/dig/Vectortile/23ku/grd50/{z}/{x}/{y}.pbf
+  - 等高線 [PBF] None https://gic-tokyo.s3.ap-northeast-1.amazonaws.com/2024/dig/Vectortile/23ku/cont/{z}/{x}/{y}.pbf
+  - 微地形表現図（赤色立体地図）DEM（グラウンド）（0.25m） [PBF] None https://info.tokyo-digitaltwin.metro.tokyo.lg.jp/
+
+### tokyopc-tama-2023 | 東京都デジタルツイン実現プロジェクト　多摩地域点群データ | CC-BY | res=10 | size=0.0GB | mod=2024-10-04
+陸部を航空レーザ測量、島しょ部の沿岸部を航空レーザ測深及びナローマルチビームにより、取得し統合された16点/平方m以上の高密度点群データです。 各ダウンロードページより、1/500図郭単位で、LAS等の各種形式をZIP圧縮したファイルのダウンロードができます。データの座標参照系は、日本測地系2011／平面直角座標系第9系です。 ** 注意 ** 1. ひとつのファイルの平均サイズが約200MBあります。最も大きなファイルは約1GBあります。ダウンロードに際しては、帯域によっては時間がかかること、保存先の空き容量にご注意ください。 2. 本業務は一部を除いて0.5mのグリッドデータ作成の仕様となっております。大部分が仕様を上回る高密度の取得ができため、参考データとして0.25mのデータを公開しております。参考データとしてご理解のうえご使用ください。 3. 可能な限りのクリーニングはしていますが、データに外れ値が含まれていることをご了承ください。 **更新履歴** ・グリッドデータ及び微地形表現図（陰陽図）のGEOTIFFのヘッダー情報更新 
+  - 索引図 [ZIP] 14585621 https://www.geospatial.jp/ckan/dataset/69929d2b-ecdc-4bf2-b4a8-7817e65fb868/resource/21e4d470-34d7-4f77-88ae-2
+  - オリジナルデータ（DSM）及びグラウンドデータ（DEM） [PBF] None https://gic-tokyo.s3.ap-northeast-1.amazonaws.com/2023/dig/Vectortile/tama/lp/{z}/{x}/{y}.pbf
+  - グリッドデータ（0.25m） [PBF] None https://gic-tokyo.s3.ap-northeast-1.amazonaws.com/2023/dig/Vectortile/tama/grd25/{z}/{x}/{y}.pbf
+  - グリッドデータ（0.50m） [PBF] None https://gic-tokyo.s3.ap-northeast-1.amazonaws.com/2023/dig/Vectortile/tama/grd50/{z}/{x}/{y}.pbf
+  - 等高線 [PBF] None https://gic-tokyo.s3.ap-northeast-1.amazonaws.com/2023/dig/Vectortile/tama/cont/{z}/{x}/{y}.pbf
+  - 航空レーザ用数値写真データ(オルソ画像) [PBF] None https://gic-tokyo.s3.ap-northeast-1.amazonaws.com/2023/dig/Vectortile/tama/ortho/{z}/{x}/{y}.pbf
+
+### tokyopc-shima-2023 | 東京都デジタルツイン実現プロジェクト　島しょ地域点群データ | CC-BY | res=10 | size=0.0GB | mod=2024-10-04
+陸部を航空レーザ測量、島しょ部の沿岸部を航空レーザ測深及びナローマルチビームにより、取得し統合された16点/平方m以上の高密度点群データです。 各ダウンロードページより、1/500図郭単位で、LAS等の各種形式をZIP圧縮したファイルのダウンロードができます。データの座標参照系は、日本測地系2011／平面直角座標系第9系です。 ** 注意 ** 1. ひとつのファイルの平均サイズが約200MBあります。最も大きなファイルは約1GBあります。ダウンロードに際しては、帯域によっては時間がかかること、保存先の空き容量にご注意ください。 2. 本業務は一部を除いて0.5mのグリッドデータ作成の仕様となっております。大部分が仕様を上回る高密度の取得ができため、参考データとして0.25mのデータを公開しております。参考データとしてご理解のうえご使用ください。 3. 可能な限りのクリーニングはしていますが、データに外れ値が含まれていることをご了承ください。 **更新履歴** ・新島（地内島）の微地形表現図（赤色立体地図）の情報更新 ・八丈島の航空レーザ用数値写真データ（オルソ画像）の情報更新 
+  - 索引図 [ZIP] 29740059 https://www.geospatial.jp/ckan/dataset/f2e91139-385f-4a7b-8eef-4db3542e6362/resource/9cbc82af-34f4-40d3-a6ae-0
+  - オリジナルデータ（DSM）及びグラウンドデータ（DEM） [PBF] None https://gic-tokyo.s3.ap-northeast-1.amazonaws.com/2023/dig/Vectortile/toushobu/lp/{z}/{x}/{y}.pbf
+  - グリッドデータ（0.25m） [PBF] None https://gic-tokyo.s3.ap-northeast-1.amazonaws.com/2023/dig/Vectortile/toushobu/grd25/{z}/{x}/{y}.pbf
+  - グリッドデータ（0.50m） [PBF] None https://gic-tokyo.s3.ap-northeast-1.amazonaws.com/2023/dig/Vectortile/toushobu/grd50/{z}/{x}/{y}.pbf
+  - 等高線 [PBF] None https://gic-tokyo.s3.ap-northeast-1.amazonaws.com/2023/dig/Vectortile/toushobu/cont/{z}/{x}/{y}.pbf
+  - 航空レーザ用数値写真データ(オルソ画像) [PBF] None https://gic-tokyo.s3.ap-northeast-1.amazonaws.com/2023/dig/Vectortile/toushobu/ortho/{z}/{x}/{y}.pbf
+
+### shizuoka-2021-pointcloud | VIRTUAL SHIZUOKA 静岡県 富士山および静岡東部 点群データ | クリエイティブ・コモンズ 表示 | res=15 | size=0.0GB | mod=2026-09-08
+各種計測手法により、取得し統合して活用できる3次元点群データです。 各ダウンロードページより、図郭単位で、LAS形式をZIPまたは7z圧縮したファイルのダウンロードができます。データの座標参照系は、日本測地系2011／平面直角座標系第8系です。 **注意** ひとつのファイルの平均サイズが約300MBあります。最も大きなファイルは2.8GBあります。ダウンロードに際しては、帯域によっては時間がかかること、保存先の空き容量にご注意ください。 データは、CC BY 4.0/ODbL のデュアルライセンスです。 更新情報 2022年4月1日 LPデータ オリジナル・グラウンドデータ 6908メッシュについて、一部の不要なデータを除去したものに差替えました。 更新情報 2022年4月18日 LPデータ オリジナル・グラウンドデータ 色情報が欠落していた6908メッシュについて、色付けしたものに差替えました。 LPデータ 水部ポリゴンデータについて、40メッシュ追加、および55メッシュについて差し替えました。 VIRTUAL SHIZUOKA バーチャル静岡
+  - LPデータ　オリジナル・グラウンドデータ [PBF] None https://gic-shizuoka.s3.ap-northeast-1.amazonaws.com/2022/Vectortile2025/LP22/LAS/{z}/{x}/{y}.pbf
+  - LPデータ グリッドデータ [PBF] None https://gic-shizuoka.s3.ap-northeast-1.amazonaws.com/2022/Vectortile2025/LP22/TXT/{z}/{x}/{y}.pbf
+  - LPデータ 水部ポリゴンデータ [PBF] None https://gic-shizuoka.s3.ap-northeast-1.amazonaws.com/2022/Vectortile2025/LP22/SHP/{z}/{x}/{y}.pbf
+  - LPデータ 等高線データ [PBF] None https://gic-shizuoka.s3.ap-northeast-1.amazonaws.com/2022/Vectortile2025/LP22/DXF/{z}/{x}/{y}.pbf
+  - LPデータ オルソ画像データ [PBF] None https://gic-shizuoka.s3.ap-northeast-1.amazonaws.com/2022/Vectortile2025/LP22/TIF/{z}/{x}/{y}.pbf
+  - LPデータ　計測日 [CSV] 12407831 https://www.geospatial.jp/ckan/dataset/dd1a35d8-82c5-4cfb-b94c-1a7f60ade5be/resource/753b4d06-ae87-4a3d-b074-2
+
+### virtual-shizuoka-mw | VIRTUAL SHIZUOKA 静岡県 中・西部 点群データ | Open Data Commons Open Database License | res=16 | size=0.0GB | mod=2026-09-08
+航空レーザ測量（LP）および移動計測車両（MMS）により取得し、統合して活用できる3次元点群データです。 各ダウンロードページより、図郭単位で、LAS形式をZIPまたは7z圧縮したファイルのダウンロードができます。データの座標参照系は、日本測地系2011／平面直角座標系第8系です。 **注意** ひとつのファイルの平均サイズが約300MBあります。最も大きなファイルは5.6GBあります。ダウンロードに際しては、帯域によっては時間がかかること、保存先の空き容量にご注意ください。 データは、CC BY 4.0/ODbL のデュアルライセンスです。 VIRTUAL SHIZUOKA バーチャル静岡 **更新情報** 2024年6月6日 906メッシュ追加しました。 - 各ダウンロードページにおいて緑のメッシュで表示しています。 - 点密度16点/m2未満の場合があります。 - 水部ポリゴンはひとつのZIPファイルでの提供で、171メッシュが追加されています。 2024年6月26日 LPデータ オリジナルデータ 色情報が欠落していた51メッシュについて、色付けしたものに差替えました。 2024年7月20日 LPデータ オリジナルデータ、グラウンドデータ、オルソ画像データ 色情報が欠落していた8メッシュについて、色付けしたものに差替えました。 2025年10月9日 117メッシュ追加しました。 対象データ：LPデータ オリジナルデータ、グラウンドデータ、グリッドデータ、水部ポリゴンデータ、等高線データ（DXF）、オルソ画像データ これらの追加データは、2024年度～2025年度にかけて計測したものです。 各ダウンロードページにおいて黄色のメッシュで表示しています。 
+  - LPデータ オリジナルデータ [PBF] None https://gic-shizuoka.s3.ap-northeast-1.amazonaws.com/2025/Vectortile/mw/LP/merge/original/{z}/{x}/{y}.pbf
+  - LPデータ グラウンドデータ [PBF] None https://gic-shizuoka.s3.ap-northeast-1.amazonaws.com/2025/Vectortile/mw/LP/merge/ground/{z}/{x}/{y}.pbf
+  - LPデータ グリッドデータ [PBF] None https://gic-shizuoka.s3.ap-northeast-1.amazonaws.com/2025/Vectortile/mw/LP/merge/grid/{z}/{x}/{y}.pbf
+  - LPデータ 水部ポリゴンデータ [SHP] None https://gsic-opendata.s3.ap-northeast-1.amazonaws.com/local-gov/shizuoka/point-cloud/2025/virtual-shizuoka-mw/
+  - LPデータ 微地形表現図データ [PBF] None https://gic-shizuoka.s3.ap-northeast-1.amazonaws.com/2023/2020/boundary/Vectortile2025/merge/reliefmap/{z}/{x}
+  - LPデータ 等高線データ(DXF) [PBF] None https://gic-shizuoka.s3.ap-northeast-1.amazonaws.com/2025/Vectortile/mw/LP/merge/contour/dxf/{z}/{x}/{y}.pbf
+
+### yamanashi-pointcloud-2024 | 山梨県点群データ（航空LP・MMS） | クリエイティブ・コモンズ 表示 | res=15 | size=0.0GB | mod=2026-09-14
+山梨県および一部、国土交通省関東地方整備局富士川砂防事務所ならびに東京都にて取得された航空レーザと山梨県で取得されたMMSの点群データになります。 各ダウンロードページより、1/500図郭単位で、LAS等の各種形式をZIP圧縮したファイルのダウンロードができます。データの座標参照系は、日本測地系2011／平面直角座標系第8系です。 **注意** ①ひとつのファイルの平均サイズが約200MBあります。最も大きなファイルは約1GBあります。ダウンロードに際しては、帯域によっては時間がかかること、保存先の空き容量にご注意ください。 ②可能な限りのクリーニングはしていますが、データに外れ値が含まれていることをご了承ください。 ③MMSの点群データは計測時期の違いにおける整合を処理しておりませんのでご利用の際は予めご承知おきください。 データは、CC BY 4.0/ODbL のデュアルライセンスです。 **公開範囲について** - 旧：航空レーザ：山梨県 MMS：山梨県内（MMS該当業務範囲） - 新：航空レーザ：山梨県全域 MMS：山梨県管理道路（県取得データ範囲） 
+  - 索引図 [ZIP] None https://gsic-opendata.s3.ap-northeast-1.amazonaws.com/local-gov/yamanashi/new-business-promotion/point-cloud/2
+  - オリジナルデータ・グラウンドデータ（航空LP） [PBF] None https://gic-yamanashi.s3.ap-northeast-1.amazonaws.com/2024/Vectortile2026/lp/{z}/{x}/{y}.pbf
+  - グリッドデータ_DSM1（航空LP 0.50m txt形式） [PBF] None https://gic-yamanashi.s3.ap-northeast-1.amazonaws.com/2024/Vectortile2026/dsm1gridtxt/{z}/{x}/{y}.pbf
+  - グリッドデータ_DSM1（航空LP 0.50m GeoTIFF形式） [PBF] None https://gic-yamanashi.s3.ap-northeast-1.amazonaws.com/2024/Vectortile2026/dsm1gridtif/{z}/{x}/{y}.pbf
+  - グリッドデータ_DSM2（航空LP 0.50m txt形式） [PBF] None https://gic-yamanashi.s3.ap-northeast-1.amazonaws.com/2024/Vectortile2026/dsm2gridtxt/{z}/{x}/{y}.pbf
+  - グリッドデータ_DSM2（航空LP 0.50m GeoTIFF形式） [PBF] None https://gic-yamanashi.s3.ap-northeast-1.amazonaws.com/2024/Vectortile2026/dsm2gridtif/{z}/{x}/{y}.pbf
+
+### kanagawa-2022-pointcloud | 神奈川県 令和4年度横浜北部、川崎3次元点群データ | クリエイティブ・コモンズ 表示 | res=16 | size=0.0GB | mod=2026-08-19
+令和元年度から令和6年度にかけて実施した航空レーザ測量によって得られた３次元点群データです。 各データの測量実施年度と対象エリアに含まれる市町村は以下のとおりです。 - __[神奈川県 令和元年度県西部3次元点群データ](https://www.geospatial.jp/ckan/dataset/kanagawa-2019-pointcloud) 令和元年__ （小田原市、南足柄市、中井町、大井町、松田町、山北町、開成町、箱根町、真鶴町、湯河原町） - __[神奈川県 令和2年度県央部3次元点群データ](https://www.geospatial.jp/ckan/dataset/kanagawa-2020-1-pointcloud) 令和2年__ （相模原市、秦野市、厚木市、伊勢原市、海老名市、座間市、寒川町、愛川町、清川村） - __[神奈川県 令和2年度相模原3次元点群データ](https://www.geospatial.jp/ckan/dataset/kanagawa-2020-2-pointcloud) 令和2年__ （相模原市緑区） - __[神奈川県 令和3年度横浜南部、湘南、横須賀三浦3次元点群データ](https://www.geospatial.jp/ckan/dataset/kanagawa-2021-pointcloud) 令和3年__ （横浜市、横須賀市、平塚市、鎌倉市、藤沢市、茅ヶ崎市、逗子市、三浦市、厚木市、大和市、伊勢原市、海老名市、綾瀬市、葉山町、寒川町、大磯町、二宮町） - __神奈川県 令和4年度横浜北部、川崎3次元点群データ 令和4年__ （横浜市、川崎市、相模原市、逗子市、大和市） - __[神奈川県 令和6年度県西部、相模原3次元点群データ](https://www.geospatial.jp/ckan/dataset/kanagawa-2024-pointcloud) 令和6年__ （相模原市、小田原市、南足柄市、中井町、大井町、松田町、山北町、開成町、箱根町、真鶴町、湯河原町） 
+  - 数値地形図_オリジナルデータ（TXT形式） [PBF] None https://gic-kanagawa.s3.ap-northeast-1.amazonaws.com/div/2022/Vectortile2025/orgtxt/{z}/{x}/{y}.pbf
+  - 数値地形図_オリジナルデータ（LAS形式） [PBF] None https://gic-kanagawa.s3.ap-northeast-1.amazonaws.com/div/2022/Vectortile2025/orglas/{z}/{x}/{y}.pbf
+  - 数値地形図_グラウンドデータ（TXT形式） [PBF] None https://gic-kanagawa.s3.ap-northeast-1.amazonaws.com/div/2022/Vectortile2025/grotxt/{z}/{x}/{y}.pbf
+  - 数値地形図_グリッドデータ（CSV形式） [PBF] None https://gic-kanagawa.s3.ap-northeast-1.amazonaws.com/div/2022/Vectortile2025/gricsv/{z}/{x}/{y}.pbf
+  - 数値地形図_グリッドデータ（メッシュ形式） [PBF] None https://gic-kanagawa.s3.ap-northeast-1.amazonaws.com/div/2022/Vectortile2025/grimesh/{z}/{x}/{y}.pbf
+  - 数値地形図_グリッドデータ（1m）（CSV形式） [PBF] None https://gic-kanagawa.s3.ap-northeast-1.amazonaws.com/div/2022/Vectortile2025/gricsv1m/{z}/{x}/{y}.pbf
+
+### mountainous-area-pointcloud-saitama | 埼玉県 山間部点群データ | クリエイティブ・コモンズ 表示 | res=1 | size=0.0GB | mod=2026-02-10
+航空レーザ計測により取得し、統合して活用できる対象地区の詳細な３次元地形モデルです。令和6年に取得したデータです。 以下のダウンロードページより、メッシュ単位で、ZIP圧縮したファイルのダウンロードができます。データの座標参照系は、JGD_2011_Japan_Zone_9​です。 以下URLの「埼玉県 道路・河川の3Dマップ」から3次元GISアプリで点群データをプレビュー、ダウンロードすることもできます。 https://experience.arcgis.com/experience/4338e026201849c9b6dc33c8e7f242fb 注意 ひとつのファイルの平均サイズが400MBあります。最も大きなファイルは550MBあります。ダウンロードに際しては、帯域によっては時間がかかること、保存先の空き容量にご注意ください。 データは、CC BY 4.0 ライセンスに従って利用することができます。
+  - 山間部点群データダウンロードページ [pbf] None https://gic-saitama.s3.ap-northeast-1.amazonaws.com/2025/Vectortile2026/sabo/{z}/{x}/{y}.pbf
+
+### inatani_067 | 長野県（伊那谷森林計画区）・樹種ポリゴン/DCHM/DEM/微地形表現図（林野庁加工） | 政府標準利用規約 | res=87 | size=12.5GB | mod=2026-09-08
+林野庁が長野県森林政策課及び同県森林づくり推進課から提供を受けた航空レーザ測量成果及び森林資源解析結果について、森林GISフォーラムの運用する「森林資源データ解析・管理標準仕様書」に沿って仕様を変換した樹種ポリゴン、DCHM（Digital Canopy Height Model）、DEM（Digital Elevation Model）、PNG標高タイル、TerrainRGB、CS立体図です。 **ベクタデータ（ジオパッケージ）**、**TIFF画像（GeoTIFF）**、**ラスタのXYZタイル（PNG標高タイル、TerrainRGB、Webp）**でご提供しています。 - ベクタデータ及びGeoTIFF（.tif）は、位置座標を持つデータですので、データをダウンロードし、地理情報システム（GIS）等にファイルを取り込むことでご利用いただけます。ファイルのご提供は市町村及び国土基本図図郭をベースとしています。データは大容量のため、ダウンロードする際にはデータ容量にご注意ください。 - ラスタタイル形式はGIS等でタイルURLを接続することでご利用いただけます。 **【仕様】** **ファイル形式** ・Zip（gpkg）：参照座標系：JGD2011/平面直角座標系Ⅷ(8)系（EPSG：6676） ・GeoTIFF：参照座標系：JGD2011/平面直角座標系Ⅷ(8)系（EPSG：6676） ・ラスタタイル形式（PNG標高タイル・TerrainRGB・Webp、ズームレベル8～18、参照座標系：EPSG:3857 - WGS 84（Webメルカトル）） **出力範囲** 別添「図郭割（インデックス）図」のとおり **標高値のRGB変換式** 標高＝-10,000＋［（R×256×256＋G×256＋B）×0.1］ **【利用条件】** 本サイトのコンテンツには特段の記載が無い限り公共データ利用規約（第1.0版）（PDL1.0）が適用されています。PDL1.0のうち、本サイト独自の出典記載例や本ルールの適用を受けないコンテンツ等サイトによって内容が異なる部分の情報については「公共データ利用規約（第1.0版）に関する重要情報」を参照してください。 **公共データ利用規約（第1.0版）に関する重要情報** 出典明記は、林野庁が長野県林務部の承認を得て公開しているデータであることが分かるよう「長野県・微地形表現図マップタイル（長野県林務部長承認（承認番号７森政第51-2号）に基づき林野庁作成）」などとしてください。 --- **【参考情報】** ・zip形式の展開は、解凍ソフトをご利用ください。 （【無料】[圧縮・解凍のソフト一覧 - 窓の杜](https://forest.watch.impress.co.jp/library/nav/genre/arc/arch
+  - 公共データ利用規約（第1.0版） [] None https://www.digital.go.jp/resources/open_data/public_data_license_v1.0
+  - 公共データ利用規約（第１.0版）に関する重要情報 [PDF] 136842 https://www.geospatial.jp/ckan/dataset/a6b0c3a4-471e-409a-8d70-d2b028d3f776/resource/4b99adbb-ff8c-42d0-a84d-4
+  - データ諸元.pdf [PDF] 225511 https://www.geospatial.jp/ckan/dataset/a6b0c3a4-471e-409a-8d70-d2b028d3f776/resource/ec13d68b-c5c0-4392-b811-5
+  - 図郭割（インデックス）図 [PDF] 176797 https://www.geospatial.jp/ckan/dataset/a6b0c3a4-471e-409a-8d70-d2b028d3f776/resource/c19109e6-0196-42bc-a297-d
+  - 図郭割データ [gpkg] 106496 https://www.geospatial.jp/ckan/dataset/a6b0c3a4-471e-409a-8d70-d2b028d3f776/resource/9ab01e16-6544-4199-9fa0-4
+  - DEMラスタタイル-PNG標高タイル [XYZ] None https://rinya-tiles.geospatial.jp/dem_067_2025/{z}/{x}/{y}.png
+
+### dem-dchm | DEM/DCHM/林相識別図マップタイル（林野庁加工） | GNU Free Documentation License | res=1 | size=0.0GB | mod=2025-03-13
+富山県が作成した航空レーザ解析データ等に基づき、林野庁が作成した以下のマップタイルが公開されています。 ・数値標高モデル（DEM） ・数値樹冠高モデル（DCHM） ・林相識別図 （樹冠高や樹冠形状、レーザパルスの反射強度に基づき、樹種や樹冠形状の特徴を図示した画像）
+  - リンク [] None https://www.geospatial.jp/ckan/dataset/rinya-toyama-maptiles
+
