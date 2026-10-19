@@ -21,12 +21,14 @@
 /municipal-dem/local-scan/*
 !/municipal-dem/local-scan/*.py
 /municipal-dem/tottori/work/
+/municipal-dem/tottori/work-full/
 /municipal-dem/tottori/backup/
 /municipal-dem/tottori/datum/par/
 /municipal-dem/tottori/datum/*.pdf
 /municipal-dem/tottori/datum/*.png
 /municipal-dem/tottori/datum/*.jpg
 /municipal-dem/tottori/gsi-lists/latest_*.csv
+/municipal-dem/tottori/gsi-lists/download-new.txt
 /municipal-dem/tottori/tottori_vsizip.txt
 /municipal-dem/tottori/tottori_index.gpkg
 *.log
