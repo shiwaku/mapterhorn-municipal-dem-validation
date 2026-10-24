@@ -12,20 +12,21 @@
 | `municipal-dem/local-scan/` | 手元の DEM を探してヘッダーを読んだスクリプト（結果のファイル一覧は含めていない） |
 | `municipal-dem/docker/` | Mapterhorn の pipelines を動かすための Docker イメージ |
 | `municipal-dem/tottori/` | 鳥取県 0.5m DEM（z6 タイル 6-55-25）で source〜bundle を通した手順と比較スクリプト |
-| `municipal-dem/scripts/` | 標高成果の改定（測地成果2024）にそろえる補正（`hyokorev_grid.py`、`source_vertical_shift.py`） |
+| `municipal-dem/scripts/` | 標高成果の改定（測地成果2024）にそろえる補正（`hyokorev_grid.py`、`source_vertical_shift.py`）と、0 で埋めた図郭を直す `source_zero_to_nodata.py` |
 | `municipal-dem/compare-param/` | 自治体 DEM と地理院 1m を 3 次メッシュごとに比べ、改定前か後か、水準点と三角点のどちらの補正パラメータが合うかを調べたスクリプトと結果 |
 | `japan/` | 本家の日本域 z13+ バンドルを落とすスクリプトと、z6 区画の地図（`viz/`） |
 
 ## 自治体 DEM の処理フロー
 
-鳥取県 0.5m DEM（`jptottori`）で回した流れです。本家の pipelines をそのまま使い、自治体 DEM 向けに 2 つの手順（★）を足しています。
+鳥取県 0.5m DEM（`jptottori`）で回した流れです。本家の pipelines をそのまま使い、自治体 DEM 向けに 3 つの手順（★）を足しています。
 
 ```
 鳥取県 0.5m DEM（G空間情報センター、ZIP 24 本・33GB、図郭 1,291 枚）
   │
 【source】ソースごとに下ごしらえ
   ① 取得・展開        ZIP から図郭の GeoTIFF を取り出す
-  ② NoData を付ける    ★本家の source_set_nodata.py で -9999 を付ける
+  ② 0 埋めを直す      ★scripts/source_zero_to_nodata.py（名前を挙げた図郭だけ）
+     NoData を付ける    ★本家の source_set_nodata.py で -9999 を付ける
   ③ COG 化            source_to_cog.py
   ④ 標高改定の補正     ★scripts/source_vertical_shift.py（vshift）
   ⑤ 範囲を取る         source_bounds.py
@@ -38,6 +39,7 @@
 
 | 足した手順 | 中身 | 理由 |
 |---|---|---|
+| ② 0 埋めを直す | データのない所を 0 で埋めた図郭で、0 を -9999 にする。0 埋めと確かめた図郭だけを `run.sh` の `ZERO_FILLED` に名前で書く | 弓ヶ浜半島の 2 枚（`dem_05lb753`・`dem_05lb964`）は海を 0 で埋めていて、地理院データの上に 0m の板ができる。補正の後では 0 が dH だけずれるので、補正の前に直す（[#3](https://github.com/shiwaku/mapterhorn-municipal-dem-validation/issues/3)） |
 | ② NoData を付ける | NoData 値のない図郭に -9999 を付ける。値は変えない | 1,291 枚のうち 51 枚に NoData 値がない。1 枚でも混ざると `gdalbuildvrt` が図郭の外を 0 として扱い、地理院データの上に 0m の穴ができる（[#3](https://github.com/shiwaku/mapterhorn-municipal-dem-validation/issues/3)） |
 | ④ 標高改定の補正 | 地理院の水準点補正量のグリッド（`grids/hyokorevBM_jgd2024.tif`）を bilinear で寄せて標高に足す。処理済みの図郭には `<file>.vshift` を置き、二度足さない | 鳥取県 DEM は 2025-04-01 の標高改定より前（測地成果2011）の値で、改定後の地理院 DEM とそろえないと境目に段差ができる（[#2](https://github.com/shiwaku/mapterhorn-municipal-dem-validation/issues/2)） |
 
@@ -54,7 +56,7 @@
 | `extract_tiles.py` | 図郭一覧（`/vsizip/` パス）の図郭を ZIP から取り出す |
 | `gsi_list.py`・`gsi_fetch.sh` | 県全体に掛かる地理院 1m・5m・10m の一覧（`gsi-lists/download-*.txt`）を作り、Source Cooperative の `smartmaps/japan-geotiff-dem` から取得する |
 | `compare.py` | 2 つの PMTiles を比べる。`stats` は標高差、`count` はタイルの有無、`render` は陰影図 |
-| `sheet_diff.py` | 図郭ごとに、自治体 DEM と地理院 DEM の差を出す |
+| `sheet_diff.py` | 図郭ごとに、自治体 DEM と地理院 DEM の差を出す。`pct_zero_land`（自治体が 0.5m 未満で地理院が 2m を超える画素の割合）で 0 埋めの図郭も探せる |
 
 - `run.sh` は downsampling の前に、aggregation が `tmp-store/source` に残したリンクを消します。残っていると downloader が Docker Desktop の共有フォルダ越しに数え続け、downsampling が進みません。
 
@@ -71,6 +73,7 @@
 - 2025-03 以前の自治体 DEM は改定前（測地成果2011）の標高で、改定後の地理院 DEM と地域ごとに数十 cm ずれる。判定できた 15 本（鳥取を含む）はすべて改定前で、水準点の補正パラメータの dH を足すとほぼ 0 になった。
 - 鳥取県全体（図郭 1,291 枚）でも source〜bundle が通った。CPUS=4 で aggregation 3時間17分・downsampling 42分・bundle 4分、作業フォルダは最大 93GB、`6-55-25.pmtiles` は 17.45GB。
 - 自治体 DEM には NoData 値のない図郭が混ざることがあり、そのままだと 0m の穴ができる。COG 化の前に NoData を付ければ消える。
+- データのない所を 0 で埋めた図郭もある（鳥取では 2 枚）。補正の前に 0 を NoData にしてから、県全体を CPUS=6 で回し直した（aggregation 2時間23分・downsampling 32分・bundle 3分、全体で約 3時間31分）。補正後の地理院 1m との差は中央値 +0.006m・RMS 0.050m（補正前は +0.222m・0.230m）。
 
 経過の詳細は issue の [#1（取り込みの仕組み）](https://github.com/shiwaku/mapterhorn-municipal-dem-validation/issues/1)、[#2（標高改定の補正）](https://github.com/shiwaku/mapterhorn-municipal-dem-validation/issues/2)、[#3（鳥取県全体の通し実行）](https://github.com/shiwaku/mapterhorn-municipal-dem-validation/issues/3) にあります。
 
