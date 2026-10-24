@@ -12,7 +12,7 @@
 | `municipal-dem/local-scan/` | 手元の DEM を探してヘッダーを読んだスクリプト（結果のファイル一覧は含めていない） |
 | `municipal-dem/docker/` | Mapterhorn の pipelines を動かすための Docker イメージ |
 | `municipal-dem/tottori/` | 鳥取県 0.5m DEM（z6 タイル 6-55-25）で source〜bundle を通した手順と比較スクリプト |
-| `municipal-dem/scripts/` | 標高成果の改定（測地成果2024）にそろえる補正（`hyokorev_grid.py`、`source_vertical_shift.py`）と、0 で埋めた図郭を直す `source_zero_to_nodata.py` |
+| `municipal-dem/scripts/` | 標高成果の改定（測地成果2024）にそろえる補正（`hyokorev_grid.py`、`source_vertical_shift.py`）、0 で埋めた図郭を直す `source_zero_to_nodata.py`、ビューワ用にデータのある範囲を GeoJSON にする `source_coverage.py` |
 | `municipal-dem/compare-param/` | 自治体 DEM と地理院 1m を 3 次メッシュごとに比べ、改定前か後か、水準点と三角点のどちらの補正パラメータが合うかを調べたスクリプトと結果 |
 | `japan/` | 本家の日本域 z13+ バンドルを落とすスクリプトと、z6 区画の地図（`viz/`） |
 
@@ -35,6 +35,8 @@
 【aggregation】z6 区画の中で、解像度の高いソースを優先して重ね、最大ズームのタイルを作る
 【downsampling】下のズームのタイルを作る
 【bundle】z6 区画ごとに PMTiles にまとめる（6-55-25.pmtiles）
+  │
+【ビューワ用】データのある範囲を GeoJSON にする  ★scripts/source_coverage.py（jptottori-coverage.geojson）
 ```
 
 | 足した手順 | 中身 | 理由 |
@@ -43,6 +45,7 @@
 | ② NoData を付ける | NoData 値のない図郭に -9999 を付ける。値は変えない | 1,291 枚のうち 51 枚に NoData 値がない。1 枚でも混ざると `gdalbuildvrt` が図郭の外を 0 として扱い、地理院データの上に 0m の穴ができる（[#3](https://github.com/shiwaku/mapterhorn-municipal-dem-validation/issues/3)） |
 | ④ 標高改定の補正 | 地理院の水準点補正量のグリッド（`grids/hyokorevBM_jgd2024.tif`）を bilinear で寄せて標高に足す。処理済みの図郭には `<file>.vshift` を置き、二度足さない | 鳥取県 DEM は 2025-04-01 の標高改定より前（測地成果2011）の値で、改定後の地理院 DEM とそろえないと境目に段差ができる（[#2](https://github.com/shiwaku/mapterhorn-municipal-dem-validation/issues/2)） |
 
+- `source_coverage.py` は、内水リスク検証のビューワ（[shiwaku/naisui-risk-verification](https://github.com/shiwaku/naisui-risk-verification) の viewer）が「この地点の DEM」に 0.5m を出すための範囲です。本家の `source_polygonize.py` は図郭を元の解像度でポリゴン化して重いので、図郭を 1/32 に間引いて読み（縁は 16m ほど粗くなる）、1,291 枚を約 1 分で 1 つのポリゴン（約 700kB）にします。使い方: `python scripts/source_coverage.py tottori/work-full/source-store/jptottori <出力.geojson>`
 - 本家に入れるときは、`source-catalog/jptottori/` の Justfile に ①〜⑤ と polygonize・tarball 作成を並べる形を考えています（手元の本家クローンに置いているだけで、本家にもフォークにも出していません）。
 - 補正量のグリッドは `scripts/hyokorev_grid.py` で、地理院の PatchJGD（標高版）のパラメータ（.par）から作ります。海の格子点は近くの値で埋めます。
 
