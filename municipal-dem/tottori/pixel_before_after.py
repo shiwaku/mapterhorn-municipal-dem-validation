@@ -7,7 +7,7 @@
 - 残差 = 差 − dH。dH は source_vertical_shift.py と同じく、グリッドを図郭の格子へ bilinear で寄せる。
   COG 化（LERC、MAX_Z_ERROR=0.001）の誤差がここに出る
 - 片方だけに値がある画素も数える（0 埋めを NoData にした図郭など）
-- 出力: <接頭辞>_sheets.tsv（図郭ごと）と <接頭辞>_summary.tsv（全体。百分位は 0.1mm 刻みのヒストグラムから）
+- 出力: <接頭辞>_sheets.tsv（図郭ごと）、<接頭辞>_summary.tsv（全体。百分位は 0.1mm 刻みのヒストグラムから）、<接頭辞>_hist.npz（グラフ用）
 """
 import os
 import sys
@@ -115,6 +115,8 @@ def main():
         *[(f'resid_p{k}', f'{v:.4f}') for k, v in rp.items()],
         ('resid_outside_hist', runder + rover),
     ]
+    # グラフ用にヒストグラムを残す（bin の幅は BIN、範囲は DIFF_RANGE / RESID_RANGE）
+    np.savez(f'{prefix}_hist.npz', diff=h, diff_range=DIFF_RANGE, resid=rh, resid_range=RESID_RANGE, bin=BIN)
     with open(f'{prefix}_summary.tsv', 'w') as f:
         for k, v in lines:
             f.write(f'{k}\t{v}\n')

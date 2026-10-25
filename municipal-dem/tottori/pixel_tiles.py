@@ -119,6 +119,8 @@ def main():
             a['h'] += b['h']
     counts = {k: sum(p[k] for p in parts) for k in ('both', 'only_old', 'only_new')}
     s = {k: summary(v) for k, v in tot.items()}
+    # グラフ用にヒストグラムを残す（1mm 刻み、±HIST_MAX m）
+    np.savez(f'{prefix}_hist.npz', inside=tot['inside']['h'], outside=tot['outside']['h'], hist_max=HIST_MAX, bin=BIN)
     keys = list(s['inside'].keys())
     with open(f'{prefix}_summary.tsv', 'w') as f:
         f.write(f'# z{z} tiles: both={counts["both"]} only_old={counts["only_old"]} only_new={counts["only_new"]}\n')

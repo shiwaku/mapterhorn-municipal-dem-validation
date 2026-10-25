@@ -63,6 +63,7 @@
 | `pixel_before_after.py` | 補正後 − 補正前を 0.5m の全画素で比べ、基礎統計と、差 − dH（補正量）のずれを出す |
 | `pixel_vs_gsi.py` | 補正前・補正後それぞれと地理院 DEM の差を、1m 格子の画素で比べる（全画素と平地だけ） |
 | `pixel_tiles.py` | 作った PMTiles と本家の PMTiles を、同じタイルの画素で比べる（鳥取の範囲の中と外に分ける） |
+| `plot_pixel_hist.py` | 上の 3 本が残したヒストグラム（`*_hist.npz`）から、差の分布の図を描く |
 
 - `run.sh` は downsampling の前に、aggregation が `tmp-store/source` に残したリンクを消します。残っていると downloader が Docker Desktop の共有フォルダ越しに数え続け、downsampling が進みません。
 

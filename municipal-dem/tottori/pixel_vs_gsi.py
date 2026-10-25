@@ -10,7 +10,7 @@
 - 補正前・補正後・地理院の 3 つすべてに値がある画素だけを数える。前後で同じ画素を比べるため
 - 平地（補正後の DEM の勾配が FLAT 未満）だけの統計も出す。斜面では水平のずれが鉛直の差に見えるため
 - 百分位は 1mm 刻みのヒストグラム（±HIST_MAX m）から。範囲の外の画素数も出す
-- 出力: <接頭辞>_sheets.tsv（図郭ごと）と <接頭辞>_summary.tsv（全体）
+- 出力: <接頭辞>_sheets.tsv（図郭ごと）、<接頭辞>_summary.tsv（全体）、<接頭辞>_hist.npz（グラフ用）
 """
 import os
 import sys
@@ -133,6 +133,8 @@ def main():
     accs = [a for _, a in results if a]
     keys = ['before', 'after', 'before_flat', 'after_flat']
     m = {k: merge(accs, k) for k in keys}
+    # グラフ用にヒストグラムを残す（1mm 刻み、±HIST_MAX m）
+    np.savez(f'{prefix}_hist.npz', **{k: m[k]['hist'] for k in keys}, hist_max=HIST_MAX, bin=BIN)
     rows = ['n', 'mean', 'median', 'std', 'rms', 'nmad', 'p1', 'p5', 'p25', 'p75', 'p95', 'p99', 'min', 'max', 'abs_gt_0.1m', 'abs_gt_0.5m', 'outside_5m']
     with open(f'{prefix}_summary.tsv', 'w') as f:
         f.write('stat\t' + '\t'.join(keys) + '\n')
