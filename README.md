@@ -60,6 +60,9 @@
 | `gsi_list.py`・`gsi_fetch.sh` | 県全体に掛かる地理院 1m・5m・10m の一覧（`gsi-lists/download-*.txt`）を作り、Source Cooperative の `smartmaps/japan-geotiff-dem` から取得する |
 | `compare.py` | 2 つの PMTiles を比べる。`stats` は標高差、`count` はタイルの有無、`render` は陰影図 |
 | `sheet_diff.py` | 図郭ごとに、自治体 DEM と地理院 DEM の差を出す。`pct_zero_land`（自治体が 0.5m 未満で地理院が 2m を超える画素の割合）で 0 埋めの図郭も探せる |
+| `pixel_before_after.py` | 補正後 − 補正前を 0.5m の全画素で比べ、基礎統計と、差 − dH（補正量）のずれを出す |
+| `pixel_vs_gsi.py` | 補正前・補正後それぞれと地理院 DEM の差を、1m 格子の画素で比べる（全画素と平地だけ） |
+| `pixel_tiles.py` | 作った PMTiles と本家の PMTiles を、同じタイルの画素で比べる（鳥取の範囲の中と外に分ける） |
 
 - `run.sh` は downsampling の前に、aggregation が `tmp-store/source` に残したリンクを消します。残っていると downloader が Docker Desktop の共有フォルダ越しに数え続け、downsampling が進みません。
 
